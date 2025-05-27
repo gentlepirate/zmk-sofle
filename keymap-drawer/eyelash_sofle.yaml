@@ -21,7 +21,7 @@ layers:
   - R
   - T
   - $$mdi:arrow-down-bold$$
-  - Y
+  - {t: Y, h: Ctl+Y}
   - U
   - I
   - O
@@ -41,10 +41,10 @@ layers:
   - {t: ;, h: RGUI, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
+  - {t: Z, h: Ctl+Z}
+  - {t: X, h: Ctl+X}
+  - {t: C, h: Ctl+C}
+  - {t: V, h: Ctl+V}
   - B
   - $$mdi:arrow-right-bold$$
   - N
@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Sft+$$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
   - '2'
   - {t: '$$mdi:apple-keyboard-shift$$', h: next4}
   - $$mdi:backspace-reverse-outline$$
