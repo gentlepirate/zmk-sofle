@@ -38,12 +38,6 @@
     };
 
     behaviors {
-        mmv2 {
-            time-to-max-speed-ms = <100>;
-            acceleration-exponent = <2>;
-            trigger-period-ms = <8>;
-        };
-
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -79,14 +73,14 @@
             label = "SCROLL_ENCODER_HORIZONTAL";
         };
 
-        mmv_2: mmv_2 {
+        mmv2: mmv_for_layer2 {
             compatible = "zmk,behavior-input-two-axis";
             label = "MMV_2";
             #binding-cells = <1>;
             x-input-code = <1>;
             y-input-code = <1>;
             trigger-period-ms = <16>;
-            time-to-max-speed-ms = <1000>;
+            time-to-max-speed-ms = <100>;
         };
     };
 
