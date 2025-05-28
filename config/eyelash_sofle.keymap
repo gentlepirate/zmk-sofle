@@ -45,6 +45,12 @@
     };
 
     behaviors {
+        mmv2 {
+            time-to-max-speed-ms = <100>;
+            acceleration-exponent = <2>;
+            trigger-period-ms = <8>;
+        };
+
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
