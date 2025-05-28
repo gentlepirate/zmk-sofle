@@ -151,8 +151,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv2 MOVE_DOWN'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv3 MOVE_UP'
+  - '&mmv3 MOVE_X(100)'
   - F11
   - F12
   - _
