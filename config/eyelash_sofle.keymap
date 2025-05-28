@@ -103,8 +103,21 @@
         compatible = "zmk,combos";
 
         alta {
-            bindings = <&kp LC(A)>;
-            key-positions = <55 30>;
+            bindings = <&sl 1>;
+            key-positions = <57 59>;
+        };
+    };
+
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LA(F4) &kp LG(N4)>,
+                <&macro_tap>,
+                <&kp LS(T) &kp Y &kp P &kp E>;
+
+            label = "NEW_MACRO";
         };
     };
 
@@ -141,7 +154,7 @@
             bindings = <
 &kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv2 MOVE_UP     &kp F6           &kp F7             &kp F8      &kp F9     &kp F10      &trans
 &trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv2 MOVE_DOWN   &mmv3 MOVE_DOWN  &mmv3 MOVE_X(100)  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv2 MOVE_LEFT   &trans           &trans             &trans      &trans     &kp LBRC     &kp RBRC
+&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv2 MOVE_LEFT   &new_macro       &trans             &trans      &trans     &kp LBRC     &kp RBRC
 &trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv2 MOVE_RIGHT  &trans           &trans             &sys_reset  &soft_off  &bootloader  &trans
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK         &trans           &trans             &trans      &trans     &trans
             >;
