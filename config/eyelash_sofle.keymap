@@ -26,10 +26,7 @@
     trigger-period-ms = <16>;
 };
 
-&mt {
-    quick-tap-ms = <150>;
-    flavor = "balanced";
-};
+&mt { tapping-term-ms = <500>; };
 
 / {
     scroll_encoder: scroll_encoder {
