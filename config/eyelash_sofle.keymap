@@ -47,7 +47,7 @@
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <18 17 16 15 14 13>; // List of keys on the right side of the keyboard
+            hold-trigger-key-positions = <28 29 30 31 27 26>; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
         };
 
@@ -60,7 +60,7 @@
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <20 21 22 23 24 25 20 21 22 23>; // List of keys on the left side of the keyboard
+            hold-trigger-key-positions = <33 34 35 36 37 38>; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
 
@@ -79,11 +79,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1       &kp N2        &kp N3        &kp N4       &kp N5         &kp UP_ARROW     &kp N6       &kp N7      &kp N8        &kp N9        &kp N0         &kp BACKSPACE
-&kp TAB     &kp Q        &kp W         &kp E         &kp R        &kp T          &kp DOWN_ARROW   &mt RC(Y) Y  &kp U       &kp I         &kp O         &kp P          &kp BSLH
-&kp LCTRL   &mt LGUI A   &mt LSHIFT S  &hml RCTRL D  &mt LALT F   &kp G          &kp LEFT_ARROW   &kp H        &mt RALT J  &hmr RCTRL K  &mt RSHIFT L  &mt RGUI SEMI  &kp ENTER
-&kp LSHFT   &mt LC(Z) Z  &mt LC(X) X   &mt LC(C) C   &mt LC(V) V  &kp B          &kp RIGHT_ARROW  &kp N        &kp M       &kp COMMA     &kp DOT       &kp FSLH       &kp RIGHT_SHIFT
-&kp C_MUTE  &kp CAPS     &kp LEFT_GUI  &kp LEFT_ALT  &kp ENTER    &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp SPACE   &mo 2         &lt 4 RSHIFT  &kp DELETE
+&kp ESC     &kp N1       &kp N2         &kp N3        &kp N4       &kp N5         &kp UP_ARROW     &kp N6       &kp N7      &kp N8        &kp N9        &kp N0         &kp BACKSPACE
+&kp TAB     &kp Q        &kp W          &kp E         &kp R        &kp T          &kp DOWN_ARROW   &mt RC(Y) Y  &kp U       &kp I         &kp O         &kp P          &kp BSLH
+&kp LCTRL   &hml LGUI A  &hml LSHIFT S  &hml RCTRL D  &hml LALT F  &kp G          &kp LEFT_ARROW   &kp H        &mt RALT J  &hmr RCTRL K  &mt RSHIFT L  &mt RGUI SEMI  &kp ENTER
+&kp LSHFT   &mt LC(Z) Z  &mt LC(X) X    &mt LC(C) C   &mt LC(V) V  &kp B          &kp RIGHT_ARROW  &kp N        &kp M       &kp COMMA     &kp DOT       &kp FSLH       &kp RIGHT_SHIFT
+&kp C_MUTE  &kp CAPS     &kp LEFT_GUI   &kp LEFT_ALT  &kp ENTER    &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp SPACE   &mo 2         &lt 4 RSHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
