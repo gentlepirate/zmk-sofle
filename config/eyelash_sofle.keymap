@@ -26,13 +26,6 @@
     trigger-period-ms = <8>;
 };
 
-&mmv2 {
-    time-to-max-speed-ms = <100>;
-    acceleration-exponent = <2>;
-    trigger-period-ms = <8>;
-};
-
-
 &mt { flavor = "tap-preferred"; };
 
 / {
