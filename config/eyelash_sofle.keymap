@@ -38,7 +38,7 @@
     };
 
     behaviors {
-hml: home_row_mod_left {
+        hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
@@ -46,9 +46,11 @@ hml: home_row_mod_left {
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
+
             hold-trigger-key-positions = < ... >; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
         };
+
         hmr: home_row_mod_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -57,8 +59,18 @@ hml: home_row_mod_left {
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
+
             hold-trigger-key-positions = < ... >; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
+        };
+
+        scroll_encoder_horizontal: scroll_encoder_horizontal {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
+
+            tap-ms = <100>;
+            label = "SCROLL_ENCODER_HORIZONTAL";
         };
     };
 
@@ -67,11 +79,11 @@ hml: home_row_mod_left {
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1       &kp N2        &kp N3        &kp N4       &kp N5         &kp UP_ARROW     &kp N6       &kp N7      &kp N8       &kp N9        &kp N0         &kp BACKSPACE
-&kp TAB     &kp Q        &kp W         &kp E         &kp R        &kp T          &kp DOWN_ARROW   &mt RC(Y) Y  &kp U       &kp I        &kp O         &kp P          &kp BSLH
-&kp LCTRL   &mt LGUI A   &mt LSHIFT S  &mt RCTRL D   &mt LALT F   &kp G          &kp LEFT_ARROW   &kp H        &mt RALT J  &mt RCTRL K  &mt RSHIFT L  &mt RGUI SEMI  &kp ENTER
-&kp LSHFT   &mt LC(Z) Z  &mt LC(X) X   &mt LC(C) C   &mt LC(V) V  &kp B          &kp RIGHT_ARROW  &kp N        &kp M       &kp COMMA    &kp DOT       &kp FSLH       &kp RIGHT_SHIFT
-&kp C_MUTE  &kp CAPS     &kp LEFT_GUI  &kp LEFT_ALT  &kp ENTER    &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp SPACE   &mo 2        &lt 4 RSHIFT  &kp DELETE
+&kp ESC     &kp N1       &kp N2        &kp N3        &kp N4       &kp N5         &kp UP_ARROW     &kp N6       &kp N7      &kp N8        &kp N9        &kp N0         &kp BACKSPACE
+&kp TAB     &kp Q        &kp W         &kp E         &kp R        &kp T          &kp DOWN_ARROW   &mt RC(Y) Y  &kp U       &kp I         &kp O         &kp P          &kp BSLH
+&kp LCTRL   &mt LGUI A   &mt LSHIFT S  &hml RCTRL D  &mt LALT F   &kp G          &kp LEFT_ARROW   &kp H        &mt RALT J  &hmr RCTRL K  &mt RSHIFT L  &mt RGUI SEMI  &kp ENTER
+&kp LSHFT   &mt LC(Z) Z  &mt LC(X) X   &mt LC(C) C   &mt LC(V) V  &kp B          &kp RIGHT_ARROW  &kp N        &kp M       &kp COMMA     &kp DOT       &kp FSLH       &kp RIGHT_SHIFT
+&kp C_MUTE  &kp CAPS     &kp LEFT_GUI  &kp LEFT_ALT  &kp ENTER    &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp SPACE   &mo 2         &lt 4 RSHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -100,7 +112,7 @@ hml: home_row_mod_left {
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder_horizontal>;
         };
 
         layer_3 {
