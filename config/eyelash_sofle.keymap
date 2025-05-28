@@ -21,9 +21,9 @@
 };
 
 &mmv {
-    time-to-max-speed-ms = <500>;
+    time-to-max-speed-ms = <1500>;
     acceleration-exponent = <1>;
-    trigger-period-ms = <32>;
+    trigger-period-ms = <8>;
 };
 
 &mt { flavor = "tap-preferred"; };
