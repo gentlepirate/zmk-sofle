@@ -23,7 +23,7 @@
 &mmv {
     time-to-max-speed-ms = <3000>;
     acceleration-exponent = <1>;
-    trigger-period-ms = <8>;
+    trigger-period-ms = <16>;
 };
 
 &mt { flavor = "tap-preferred"; };
@@ -80,7 +80,7 @@
             x-input-code = <1>;
             y-input-code = <1>;
             trigger-period-ms = <16>;
-            time-to-max-speed-ms = <100>;
+            time-to-max-speed-ms = <1000>;
         };
 
         mmv3: mmv3 {
@@ -89,11 +89,20 @@
             #binding-cells = <1>;
             x-input-code = <0>;
             y-input-code = <1>;
-            time-to-max-speed-ms = <200>;
+            time-to-max-speed-ms = <500>;
         };
     };
 
     behaviors {
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        alta {
+            bindings = <&kp LC(A)>;
+            key-positions = <55 30>;
+        };
     };
 
     keymap {
