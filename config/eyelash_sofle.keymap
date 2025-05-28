@@ -78,6 +78,16 @@
             tap-ms = <100>;
             label = "SCROLL_ENCODER_HORIZONTAL";
         };
+
+        mmv_2: mmv_2 {
+            compatible = "zmk,behavior-input-two-axis";
+            label = "MMV_2";
+            #binding-cells = <1>;
+            x-input-code = <1>;
+            y-input-code = <1>;
+            trigger-period-ms = <16>;
+            time-to-max-speed-ms = <1000>;
+        };
     };
 
     behaviors {
@@ -118,7 +128,7 @@
 &trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv2 MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
 &trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv2 MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
 &trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv2 MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK         &trans  &trans  &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder_horizontal>;
