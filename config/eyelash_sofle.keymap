@@ -189,6 +189,18 @@
 
             quick-tap-ms = <1000>;
         };
+
+        backspace_ht_bl_3000_1000: backspace_ht_bl_3000_1000 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "BACKSPACE_HT_BL_3000_1000";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <3000>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+
+            quick-tap-ms = <1000>;
+        };
     };
 
     behaviors {
