@@ -338,7 +338,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: A, h: '$$mdi:backspace$$'}
   - $$mdi:keyboard-tab$$
   - Q
   - W
