@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '2'}
   - $$mdi:keyboard-space$$
   - '2'
-  - {t: LAYER0_5, h: toggle}
+  - {t: L0_5, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
@@ -325,7 +325,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  LAYER0_5:
+  L0_5:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -388,7 +388,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '2'}
   - $$mdi:keyboard-space$$
   - '2'
-  - {t: '$$mdi:apple-keyboard-shift$$', h: next4}
+  - {t: LAYER0, h: toggle}
   - $$mdi:backspace-reverse-outline$$
 combos:
 - p: [57, 59]
