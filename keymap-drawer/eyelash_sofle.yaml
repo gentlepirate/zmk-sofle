@@ -34,11 +34,11 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-option$$'}
   - G
   - $$mdi:arrow-left-bold$$
-  - H
+  - {t: H, h: RIGHT GUI}
   - {t: J, h: '$$mdi:apple-keyboard-option$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ;, h: RGUI, s: ':'}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: Ctl+Z}
