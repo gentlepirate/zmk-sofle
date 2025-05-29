@@ -137,6 +137,56 @@
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
+
+        ht_bl_200: ht_bl_200 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_200";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_100: ht_bl_100 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_100";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <100>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_50: ht_bl_50 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_50";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <50>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_2000: ht_bl_2000 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_2000";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <2000>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <100>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     behaviors {
