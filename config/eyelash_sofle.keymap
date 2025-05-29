@@ -148,6 +148,36 @@
             bindings = <&kp>, <&kp>;
         };
 
+        ht_bl_175: ht_bl_175 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_175";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <175>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_150: ht_bl_150 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_150";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <150>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_125: ht_bl_125 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_125";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <125>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
         ht_bl_100: ht_bl_100 {
             compatible = "zmk,behavior-hold-tap";
             label = "HT_BL_100";
