@@ -197,87 +197,6 @@
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
-
-        ht_bl_75: ht_bl_75 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_75";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <75>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_400: ht_bl_400 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_400";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <400>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_300: ht_tp_300 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_300";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <300>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_200: ht_tp_200 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_200";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_150: ht_tp_150 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_150";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <150>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_100: ht_tp_100 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_100";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <100>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_75: ht_tp_75 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_75";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <75>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_50: ht_tp_50 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_50";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <50>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
     };
 
     behaviors {
@@ -313,7 +232,7 @@
 &kp ESC     &kp N1       &kp N2        &kp N3              &kp N4       &kp N5         &kp UP_ARROW     &kp N6       &kp N7      &kp N8       &kp N9        &kp N0         &kp BACKSPACE
 &kp TAB     &kp Q        &kp W         &kp E               &kp R        &kp T          &kp DOWN_ARROW   &ht RC(Y) Y  &kp U       &kp I        &kp O         &kp P          &kp BSLH
 &kp LCTRL   &ht LC(A) A  &ht LSHIFT S  &ht LEFT_CONTROL D  &ht LALT F   &kp G          &kp LEFT_ARROW   &kp H        &ht RALT J  &ht RCTRL K  &ht RSHIFT L  &ht RGUI SEMI  &kp ENTER
-&kp LSHFT   &ht LC(Z) Z  &ht LC(X) X   &ht LC(C) C         &ht LC(V) V  &kp B          &kp RIGHT_ARROW  &kp N        &kp M       &kp COMMA    &kp DOT       &kp FSLH       &kp RIGHT_SHIFT
+&kp LSHFT   &ht LC(Z) Z  &ht LC(X) X   &ht LC(C) C         &ht LC(V) V  &mt LC(A) B    &kp RIGHT_ARROW  &kp N        &kp M       &kp COMMA    &kp DOT       &kp FSLH       &kp RIGHT_SHIFT
 &kp C_MUTE  &kp CAPS     &kp LALT      &kp LEFT_GUI        &kp ENTER    &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp SPACE   &mo 2        &tog 5        &kp DELETE
             >;
 
