@@ -28,7 +28,7 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <200>;
+    tapping-term-ms = <100>;
 };
 
 / {
@@ -85,117 +85,6 @@
 
             tap-ms = <100>;
             label = "SCROLL_ENCODER_HORIZONTAL";
-        };
-
-        mmv2: mmv_for_layer2 {
-            compatible = "zmk,behavior-input-two-axis";
-            label = "MMV_2";
-            #binding-cells = <1>;
-            x-input-code = <1>;
-            y-input-code = <1>;
-            trigger-period-ms = <16>;
-            time-to-max-speed-ms = <1000>;
-        };
-
-        mmv3: mmv3 {
-            compatible = "zmk,behavior-input-two-axis";
-            label = "MMV3";
-            #binding-cells = <1>;
-            x-input-code = <0>;
-            y-input-code = <1>;
-            time-to-max-speed-ms = <500>;
-        };
-
-        ht_hp_150_100: ht_hp_150_100 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_HP_150_100";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <150>;
-            quick-tap-ms = <100>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_hp_100_50: ht_hp_100_50 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_HP_100_50";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <100>;
-            quick-tap-ms = <50>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_hp_2000: ht_hp_2000 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_HP_2000";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <2000>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_2000: ht_bl_2000 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_2000";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <2000>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_200: ht_bl_200 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_200";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <200>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_175: ht_bl_175 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_175";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <175>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_150: ht_bl_150 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_150";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <150>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_125: ht_bl_125 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_125";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <125>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        ht_bl_100: ht_bl_100 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_100";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <100>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
         };
     };
 
@@ -255,11 +144,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv2 MOVE_UP     &kp F6           &kp F7             &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv2 MOVE_DOWN   &mmv3 MOVE_DOWN  &mmv3 MOVE_X(100)  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv2 MOVE_LEFT   &new_macro       &trans             &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv2 MOVE_RIGHT  &trans           &trans             &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK         &trans           &trans             &trans      &trans     &trans
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none      &kp F6      &kp F7  &kp F8      &kp F9     &kp F10      &trans
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &none      &none       &none   &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &none      &new_macro  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &none      &trans      &trans  &sys_reset  &soft_off  &bootloader  &trans
+&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK  &trans      &trans  &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder_horizontal>;
