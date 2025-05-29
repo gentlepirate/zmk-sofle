@@ -31,9 +31,6 @@
     tapping-term-ms = <100>;
 };
 
-&key_repeat {
-};
-
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
