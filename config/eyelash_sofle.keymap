@@ -178,16 +178,16 @@
             bindings = <&kp>, <&kp>;
         };
 
-        backspace_ht_bl_300_1000: backspace_ht_bl_300_1000 {
+        backspace_ht_bl_300_500: backspace_ht_bl_300_500 {
             compatible = "zmk,behavior-hold-tap";
-            label = "BACKSPACE_HT_BL_300_1000";
+            label = "BACKSPACE_HT_BL_300_500";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <300>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <1000>;
+            quick-tap-ms = <500>;
         };
 
         backspace_ht_bl_3000_1000: backspace_ht_bl_3000_1000 {
@@ -290,13 +290,13 @@
         };
 
         copy_from_1 {
-            display-name = "LAYER0_5";
+            display-name = "L0_5";
             bindings = <
-&kp ESC     &kp N1       &kp N2        &kp N3              &kp N4       &kp N5         &kp UP_ARROW     &kp N6       &kp N7      &kp N8       &kp N9        &kp N0         &backspace_ht_bl_300_1000 BACKSPACE A
+&kp ESC     &kp N1       &kp N2        &kp N3              &kp N4       &kp N5         &kp UP_ARROW     &kp N6       &kp N7      &kp N8       &kp N9        &kp N0         &backspace_ht_bl_300_500 BACKSPACE A
 &kp TAB     &kp Q        &kp W         &kp E               &kp R        &kp T          &kp DOWN_ARROW   &ht RC(Y) Y  &kp U       &kp I        &kp O         &kp P          &kp BSLH
 &kp LCTRL   &ht LC(A) A  &ht LSHIFT S  &ht LEFT_CONTROL D  &ht LALT F   &kp G          &kp LEFT_ARROW   &kp H        &ht RALT J  &ht RCTRL K  &ht RSHIFT L  &ht RGUI SEMI  &kp ENTER
 &kp LSHFT   &ht LC(Z) Z  &ht LC(X) X   &ht LC(C) C         &ht LC(V) V  &kp B          &kp RIGHT_ARROW  &kp N        &kp M       &kp COMMA    &kp DOT       &kp FSLH       &kp RIGHT_SHIFT
-&kp C_MUTE  &kp CAPS     &kp LEFT_GUI  &kp LEFT_GUI        &kp ENTER    &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp SPACE   &mo 2        &lt 4 RSHIFT  &kp DELETE
+&kp C_MUTE  &kp CAPS     &kp LEFT_GUI  &kp LEFT_GUI        &kp ENTER    &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &kp SPACE   &mo 2        &tog 0        &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
