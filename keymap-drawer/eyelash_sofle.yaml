@@ -338,7 +338,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - '&backspace_ht_bl_300_500 A BACKSPACE'
+  - {t: '$$mdi:backspace$$', h: A}
   - $$mdi:keyboard-tab$$
   - Q
   - W
