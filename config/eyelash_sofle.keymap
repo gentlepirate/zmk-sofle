@@ -138,6 +138,16 @@
             bindings = <&kp>, <&kp>;
         };
 
+        ht_bl_2000: ht_bl_2000 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_2000";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <2000>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
         ht_bl_200: ht_bl_200 {
             compatible = "zmk,behavior-hold-tap";
             label = "HT_BL_200";
@@ -188,49 +198,86 @@
             bindings = <&kp>, <&kp>;
         };
 
-        ht_bl_50: ht_bl_50 {
+        ht_bl_75: ht_bl_75 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_75";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <75>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_400: ht_bl_400 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_400";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <400>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_300: ht_tp_300 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_300";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <300>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_200: ht_tp_200 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_200";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_150: ht_tp_150 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_150";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <150>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_100: ht_tp_100 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_100";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <100>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_75: ht_tp_75 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_BL_75";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <75>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_bl_50: ht_tp_50 {
             compatible = "zmk,behavior-hold-tap";
             label = "HT_BL_50";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <50>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
 
-        ht_bl_2000: ht_bl_2000 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_BL_2000";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <2000>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-        };
-
-        backspace_ht_bl_300_500: backspace_ht_bl_300_500 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "BACKSPACE_HT_BL_300_500";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <300>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-
-            quick-tap-ms = <500>;
-        };
-
-        backspace_ht_bl_3000_1000: backspace_ht_bl_3000_1000 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "BACKSPACE_HT_BL_3000_1000";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <3000>;
-            global-quick-tap;
-            bindings = <&kp>, <&kp>;
-
-            quick-tap-ms = <1000>;
-        };
     };
 
     behaviors {
