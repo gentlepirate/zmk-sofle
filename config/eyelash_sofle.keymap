@@ -105,6 +105,38 @@
             y-input-code = <1>;
             time-to-max-speed-ms = <500>;
         };
+
+        ht_hp_150_100: ht_hp_150_100 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_HP_150_100";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <150>;
+            quick-tap-ms = <100>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_hp_100_50: ht_hp_100_50 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_HP_100_50";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <100>;
+            quick-tap-ms = <50>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
+
+        ht_hp_2000: ht_hp_2000 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_HP_2000";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <2000>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     behaviors {
