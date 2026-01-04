@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: L-3}
-  - PRINTSCREEN
+  - $$mdi:apple-keyboard-caps$$
   - Z
   - X
   - C
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PRINTSCREEN
   - $$mdi:volume-off$$
   - {t: '$$mdi:apple-keyboard-control$$', h: layer2}
   - $$mdi:apple-keyboard-command$$
@@ -116,8 +116,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -181,8 +181,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ':'
+  - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
