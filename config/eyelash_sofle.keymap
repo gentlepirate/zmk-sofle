@@ -71,11 +71,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1       &kp N2        &kp N3        &kp N4       &kp N5       &kp UP_ARROW     &kp N6     &kp N7       &kp N8     &kp N9       &kp N0               &kp BACKSPACE
-&lt 3 TAB   &kp Q        &kp W         &kp E         &kp R        &kp T        &kp DOWN_ARROW   &kp Y      &kp U        &kp I      &kp O        &kp P                &lt 3 BSLH
-&lt 2 ESC   &mt LSHFT A  &mt LCTRL S   &kp D         &kp F        &kp G        &kp LEFT_ARROW   &kp H      &kp J        &kp K      &mt RCTRL L  &mt RSHFT BACKSPACE  &lt 2 DEL
-&kp CAPS    &kp Z        &kp X         &kp C         &kp V        &kp B        &kp RIGHT_ARROW  &kp N      &kp M        &kp COMMA  &kp DOT      &kp FSLH             &kp PRINTSCREEN
-&kp C_MUTE  &lt 5 LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 ENTER  &kp LCTRL    &kp ENTER        &kp RCTRL  &lt 1 SPACE  &mo 5      &kp MINUS    &kp EQUAL
+&kp F1     &kp F2       &kp F3        &kp F4        &kp F5       &kp F6       &none  &kp F7     &kp F8       &kp F9     &kp F10      &kp F11              &kp F12
+&lt 3 TAB  &kp Q        &kp W         &kp E         &kp R        &kp T        &none  &kp Y      &kp U        &kp I      &kp O        &kp P                &lt 3 BSLH
+&lt 2 ESC  &mt LSHFT A  &mt LCTRL S   &kp D         &kp F        &kp G        &none  &kp H      &kp J        &kp K      &mt RCTRL L  &mt RSHFT BACKSPACE  &lt 2 DEL
+&kp CAPS   &kp Z        &kp X         &kp C         &kp V        &kp B        &none  &kp N      &kp M        &kp COMMA  &kp DOT      &kp FSLH             &kp PRINTSCREEN
+&none      &lt 5 LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 ENTER  &kp LCTRL    &none  &kp RCTRL  &lt 1 SPACE  &mo 5      &kp MINUS    &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
