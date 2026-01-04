@@ -78,7 +78,6 @@
 &none      &lt 5 LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 ENTER  &kp LCTRL    &none  &kp RCTRL  &lt 1 SPACE  &mo 5      &kp MINUS    &kp EQUAL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "LAYER0";
         };
 
