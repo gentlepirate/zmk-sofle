@@ -14,7 +14,7 @@ layers:
   - F10
   - F11
   - F12
-  - {t: '$$mdi:keyboard-tab$$', h: L-3}
+  - {t: '$$mdi:keyboard-tab$$', h: L-2}
   - Q
   - W
   - E
@@ -26,8 +26,8 @@ layers:
   - I
   - O
   - P
-  - {t: \, h: L-3, s: '|'}
-  - {t: '$$mdi:keyboard-esc$$', h: L-2}
+  - {t: \, h: L-2, s: '|'}
+  - {t: '$$mdi:keyboard-esc$$', h: L-3}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - D
@@ -39,7 +39,7 @@ layers:
   - K
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: L-2}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: L-3}
   - {t: '$$mdi:apple-keyboard-caps$$', h: layer1}
   - Z
   - X
@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
+  - {t: '~', type: held}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - OUT USB
@@ -156,8 +156,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - '!'
   - '@'
   - '#'
@@ -169,7 +169,7 @@ layers:
   - '*'
   - (
   - )
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -209,7 +209,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - END
   - PG UP
@@ -221,8 +221,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - BT CLR ALL
   - END
   - PG UP
@@ -234,7 +234,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
