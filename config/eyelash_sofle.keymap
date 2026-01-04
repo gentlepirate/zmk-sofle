@@ -83,11 +83,11 @@
 
         L1 {
             bindings = <
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&kp GRAVE  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&trans     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &kp N6  &kp N7  &kp N8    &kp N9    &kp N0    &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp LPAR  &kp RPAR  &kp SEMI  &kp SQT
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans
+&trans     &mkp MB4        &mkp MB1        &mkp MB2      &mkp MB5         &trans      &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&kp GRAVE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp MB3    &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &kp N1          &kp N2          &kp N3        &kp N4           &kp N5      &trans  &kp N6  &kp N7  &kp N8    &kp N9    &kp N0    &trans
+&trans     &trans          &trans          &trans        &trans           &trans      &trans  &trans  &trans  &kp LPAR  &kp RPAR  &kp SEMI  &kp SQT
+&trans     &trans          &trans          &trans        &trans           &trans      &trans  &trans  &trans  &trans    &trans    &trans
             >;
 
             display-name = "L-1";
