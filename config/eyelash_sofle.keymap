@@ -97,11 +97,11 @@
 
         L2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans    &trans
+&trans  &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans    &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &trans  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &trans
+&trans  &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans    &trans
+&trans  &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans
             >;
 
             display-name = "L-2";
