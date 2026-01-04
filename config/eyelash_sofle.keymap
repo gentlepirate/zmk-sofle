@@ -83,11 +83,11 @@
 
         L1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &kp N6  &kp N7  &kp N8    &kp N9    &kp N0    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp LPAR  &kp RPAR  &kp SEMI  &kp SQT
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&kp GRAVE  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &kp N6  &kp N7  &kp N8    &kp N9    &kp N0    &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp LPAR  &kp RPAR  &kp SEMI  &kp SQT
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans
             >;
 
             display-name = "L-1";
@@ -96,11 +96,11 @@
 
         L2 {
             bindings = <
-&trans  &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans     &trans
-&trans  &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans     &trans
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &trans  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR   &trans
-&trans  &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &kp LBKT  &kp RBKT  &kp COLON  &kp DQT
-&trans  &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans
+&trans     &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans     &trans
+&kp TILDE  &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans     &trans
+&trans     &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &trans  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR   &trans
+&trans     &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &kp LBKT  &kp RBKT  &kp COLON  &kp DQT
+&trans     &trans    &trans  &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans
             >;
 
             display-name = "L-2";
