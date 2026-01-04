@@ -111,11 +111,11 @@
         L3 {
             display-name = "L-3";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans   &trans     &trans     &trans      &trans  &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &trans   &trans     &trans     &trans      &trans  &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &kp END  &kp PG_UP  &kp PG_DN  &kp HOME    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans   &trans     &trans     &trans      &trans  &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &trans   &trans     &trans     &trans      &trans  &trans    &trans    &trans  &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
