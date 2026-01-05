@@ -3,17 +3,17 @@ layers:
   LAYER0:
   - {t: F1, s: '1'}
   - {t: F1, s: '2'}
-  - F3
-  - F4
-  - F5
-  - F6
+  - {t: F3, s: '3'}
+  - {t: F4, s: '4'}
+  - {t: F5, s: '5'}
+  - {t: F6, s: '6'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - {t: F7, s: '7'}
+  - {t: F8, s: '8'}
+  - {t: F9, s: '9'}
+  - {t: F10, s: '0'}
+  - {t: F11, s: '-'}
+  - {t: F12, s: '='}
   - {t: '$$mdi:keyboard-tab$$', h: L-2}
   - Q
   - W
