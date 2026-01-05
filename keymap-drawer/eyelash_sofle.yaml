@@ -28,18 +28,18 @@ layers:
   - P
   - {t: \, h: L-2, s: '|'}
   - {t: '$$mdi:keyboard-esc$$', h: L-3}
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: '&lt 1'}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '&lt 2'}
+  - {t: G, h: '&lt 3'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: H, h: '&lt 3'}
+  - {t: J, h: '&lt 2'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: L-3}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '&lt 1'}
   - '&S4_CAPS'
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
@@ -234,7 +234,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
