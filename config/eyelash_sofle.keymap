@@ -229,8 +229,8 @@
 &mF1       &mF2              &mF3                   &mF4              &mF5              &mF6                &none  &mF7          &mF8          &mF9              &mF10              &mF11                 &mF12
 &lt 2 TAB  &kp Q             &kp W                  &kp E             &kp R             &kp T               &none  &kp Y         &kp U         &kp I             &kp O              &kp P                 &lt 2 BSLH
 &lt 3 ESC  &main_lt 1 A      &main_mt LEFT_SHIFT S  &main_mt LCTRL D  &main_lt 2 F      &main_lt 3 G        &none  &main_lt 3 H  &main_lt 2 J  &main_mt RCTRL K  &main_mt RSHIFT L  &main_lt 1 BACKSPACE  &main_lt 1 DEL
-&S4_CAPS   &main_mt LC(Z) Z  &main_mt LC(X) X       &main_mt LC(C) C  &main_mt LC(V) V  &main_mt LC(A) B    &none  &kp N         &kp M         &kp COMMA         &kp DOT            &kp FSLH              &S4_PSCN
-&none      &lt 5 DEL         &kp LEFT_GUI           &kp LEFT_ALT      &lt 1 ENTER       &kp SPACE           &none  &kp RCTRL     &lt 1 SPACE   &kp RALT          &kp MINUS          &kp EQUAL
+&S4_CAPS   &main_mt LC(Z) Z  &main_mt LC(X) X       &main_mt LC(C) C  &main_mt LC(V) V  &main_mt LC(A) B    &none  &kp N         &kp M         &kp COMMA         &kp DOT            &kp FSLH              &main_lt 4 DEL
+&none      &lt 5 DEL         &kp LEFT_GUI           &kp LEFT_ALT      &lt 1 ENTER       &kp SPACE           &none  &kp RCTRL     &lt 1 SPACE   &S4_PSCN          &kp MINUS          &kp EQUAL
             >;
 
             display-name = "LAYER0";
