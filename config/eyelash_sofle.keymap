@@ -32,168 +32,167 @@
 
 / {
     behaviors {
-    scroll_encoder: scroll_encoder {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+        scroll_encoder: scroll_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <100>;
-    };
+            tap-ms = <100>;
+        };
 
-    S4_CAPS: S4_CAPS {
-        compatible = "zmk,behavior-tap-dance";
-        label = "S4_CAPS";
-        #binding-cells = <0>;
-        bindings = <&lt 4 LSHIFT>, <&kp CAPS>;
-    };
+        S4_CAPS: S4_CAPS {
+            compatible = "zmk,behavior-tap-dance";
+            label = "S4_CAPS";
+            #binding-cells = <0>;
+            bindings = <&lt 4 LSHIFT>, <&kp CAPS>;
+        };
 
-    S4_PSCN: S4_PSCN {
-        compatible = "zmk,behavior-tap-dance";
-        label = "S4_PSCN";
-        #binding-cells = <0>;
-        bindings = <&lt 4 PRINTSCREEN>, <&kp PRINTSCREEN>;
-    };
+        S4_PSCN: S4_PSCN {
+            compatible = "zmk,behavior-tap-dance";
+            label = "S4_PSCN";
+            #binding-cells = <0>;
+            bindings = <&lt 4 PRINTSCREEN>, <&kp PRINTSCREEN>;
+        };
 
-    mF1: mF1 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF1";
-        bindings = <&kp F1>, <&kp N1>;
+        mF1: mF1 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF1";
+            bindings = <&kp F1>, <&kp N1>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF2: mF2 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF2";
-        bindings = <&kp F1>, <&kp N2>;
+        mF2: mF2 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF2";
+            bindings = <&kp F1>, <&kp N2>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF3: mF3 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF3";
-        bindings = <&kp F3>, <&kp N3>;
+        mF3: mF3 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF3";
+            bindings = <&kp F3>, <&kp N3>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF4: mF4 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF4";
-        bindings = <&kp F4>, <&kp N4>;
+        mF4: mF4 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF4";
+            bindings = <&kp F4>, <&kp N4>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF5: mF5 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF5";
-        bindings = <&kp F5>, <&kp N5>;
+        mF5: mF5 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF5";
+            bindings = <&kp F5>, <&kp N5>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF6: mF6 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF6";
-        bindings = <&kp F6>, <&kp N6>;
+        mF6: mF6 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF6";
+            bindings = <&kp F6>, <&kp N6>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF7: mF7 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF7";
-        bindings = <&kp F7>, <&kp N7>;
+        mF7: mF7 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF7";
+            bindings = <&kp F7>, <&kp N7>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF8: mF8 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF8";
-        bindings = <&kp F8>, <&kp N8>;
+        mF8: mF8 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF8";
+            bindings = <&kp F8>, <&kp N8>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF9: mF9 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF9";
-        bindings = <&kp F9>, <&kp N9>;
+        mF9: mF9 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF9";
+            bindings = <&kp F9>, <&kp N9>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF10: mF10 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF10";
-        bindings = <&kp F10>, <&kp N0>;
+        mF10: mF10 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF10";
+            bindings = <&kp F10>, <&kp N0>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF11: mF11 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF11";
-        bindings = <&kp F11>, <&kp MINUS>;
+        mF11: mF11 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF11";
+            bindings = <&kp F11>, <&kp MINUS>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-    mF12: mF12 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MF12";
-        bindings = <&kp F12>, <&kp EQUAL>;
+        mF12: mF12 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF12";
+            bindings = <&kp F12>, <&kp EQUAL>;
 
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI)>;
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>;
-    };
-    main_mt: main_mt {
-        compatible = "zmk,behavior-hold-tap";
-        label = "MAIN_MT";
-        bindings = <&kp>, <&kp>;
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "balanced";
-    };
+        main_mt: main_mt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MAIN_MT";
+            bindings = <&kp>, <&kp>;
 
-    main_lt: main_lt {
-        compatible = "zmk,behavior-hold-tap";
-        label = "MAIN_LT";
-        bindings = <&lt>, <&kp>;
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
 
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "balanced";
-    };
+        main_lt: main_lt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MAIN_LT";
+            bindings = <&lt>, <&kp>;
 
-
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
     };
 
     combos {
@@ -282,7 +281,7 @@
 &trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &kp A            &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp C_MUTE  &trans           &trans          &trans           &kp B            &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "layer1";
