@@ -32,9 +32,9 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: L-2}
-  - {t: '$$mdi:apple-keyboard-control$$', h: L-3}
+  - {t: '$$mdi:apple-keyboard-control$$', h: G}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-control$$', h: L-3}
+  - {t: '$$mdi:apple-keyboard-control$$', h: H}
   - {t: J, h: L-2}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
@@ -227,9 +227,9 @@ layers:
   - END
   - PG UP
   - PG DN
-  - {t: HOME, type: held alternate}
+  - HOME
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:arrow-left-bold$$', type: held alternate}
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
