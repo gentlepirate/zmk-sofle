@@ -31,32 +31,13 @@
 &lt { tapping-term-ms = <150>; };
 
 / {
+    behaviors {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
         tap-ms = <100>;
-    };
-
-    main_mt: main_mt {
-        compatible = "zmk,behavior-hold-tap";
-        label = "MAIN_MT";
-        bindings = <&kp>, <&kp>;
-
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "balanced";
-    };
-
-    main_lt: main_lt {
-        compatible = "zmk,behavior-hold-tap";
-        label = "MAIN_LT";
-        bindings = <&lt>, <&kp>;
-
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "balanced";
     };
 
     S4_CAPS: S4_CAPS {
@@ -192,8 +173,27 @@
         mods = <(MOD_LGUI|MOD_RGUI)>;
         keep-mods = <(MOD_RGUI|MOD_LGUI)>;
     };
+    main_mt: main_mt {
+        compatible = "zmk,behavior-hold-tap";
+        label = "MAIN_MT";
+        bindings = <&kp>, <&kp>;
 
-    behaviors {
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        flavor = "balanced";
+    };
+
+    main_lt: main_lt {
+        compatible = "zmk,behavior-hold-tap";
+        label = "MAIN_LT";
+        bindings = <&lt>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        flavor = "balanced";
+    };
+
+
     };
 
     combos {
