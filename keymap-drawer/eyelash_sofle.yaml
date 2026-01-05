@@ -103,8 +103,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {type: held alternate}
-  - {type: held alternate}
+  - {t: ;, s: ':', type: held alternate}
+  - {t: '''', s: '"', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
