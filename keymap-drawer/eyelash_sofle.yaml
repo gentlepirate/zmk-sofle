@@ -91,7 +91,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - {t: LAYER0, h: toggle}
   - {type: held}
   - END
@@ -156,7 +156,7 @@ layers:
   - '*'
   - (
   - )
-  - {type: held alternate}
+  - {t: _, type: held alternate}
   - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
