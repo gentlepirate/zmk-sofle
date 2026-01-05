@@ -35,7 +35,7 @@ layers:
   - {t: G, h: L-3}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: H, h: L-3}
-  - J
+  - {t: J, h: L-2}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: L-1}
@@ -165,7 +165,7 @@ layers:
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
   - ^
-  - '&'
+  - {t: '&', type: held alternate}
   - '*'
   - (
   - )
