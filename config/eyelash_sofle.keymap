@@ -219,7 +219,7 @@
 &lt 2 TAB    &kp Q             &kp W                  &kp E             &kp R              &kp T               &none  &kp Y             &kp U             &kp I             &kp O              &kp P                     &lt 2 BSLH
 &lt 3 ESC    &main_mt RCTRL A  &main_mt LEFT_SHIFT S  &main_mt LCTRL D  &main_mt LSHIFT F  &main_mt LCTRL G    &none  &main_mt RCTRL H  &main_mt RSHFT J  &main_mt RCTRL K  &main_mt RSHIFT L  &main_mt LCTRL BACKSPACE  &lt 3 DEL
 &shift_caps  &kp Z             &kp X                  &kp C             &kp V              &kp B               &none  &kp N             &kp M             &kp COMMA         &kp DOT            &kp FSLH                  &shift_pscrn
-&none        &lt 5 LCTRL       &kp LEFT_GUI           &kp LEFT_ALT      &lt 1 ENTER        &kp LCTRL           &none  &kp RCTRL         &lt 1 SPACE       &kp RALT          &kp MINUS          &kp EQUAL
+&none        &lt 5 LCTRL       &kp LEFT_GUI           &kp LEFT_ALT      &lt 1 ENTER        &kp DEL             &none  &kp RCTRL         &lt 1 SPACE       &kp RALT          &kp MINUS          &kp EQUAL
             >;
 
             display-name = "LAYER0";
