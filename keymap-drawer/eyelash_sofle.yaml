@@ -2,7 +2,7 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
   - {t: F1, s: '1'}
-  - F2
+  - {t: F1, s: '2'}
   - F3
   - F4
   - F5
