@@ -17,15 +17,15 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: L-2}
   - {t: Q, h: '1'}
   - {t: W, h: '2'}
-  - E
-  - R
-  - T
+  - {t: E, h: '3'}
+  - {t: R, h: '4'}
+  - {t: T, h: '5'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Y
-  - U
-  - I
-  - O
-  - P
+  - {t: Y, h: '6'}
+  - {t: U, h: '7'}
+  - {t: I, h: '8'}
+  - {t: O, h: '9'}
+  - {t: P, h: '0'}
   - {t: \, h: L-2, s: '|'}
   - {t: '$$mdi:keyboard-esc$$', h: L-3}
   - {t: A, h: L-1}
