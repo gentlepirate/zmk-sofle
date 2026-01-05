@@ -94,10 +94,10 @@ layers:
   - {t: '-', s: _}
   - {t: LAYER0, h: toggle}
   - {type: held}
-  - END
-  - PG UP
-  - PG DN
   - HOME
+  - PG DN
+  - PG UP
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
