@@ -38,7 +38,7 @@ layers:
   - {t: J, h: '&lt 2'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace$$', h: '&lt 1'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '&lt 1'}
   - '&S4_CAPS'
   - {t: Z, h: Ctl+Z}
