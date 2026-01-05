@@ -35,7 +35,7 @@ layers:
   - {t: G, h: '&lt 3'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: H, h: '&lt 3'}
-  - {t: J, h: '&lt 2'}
+  - J
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: '&lt 1'}
