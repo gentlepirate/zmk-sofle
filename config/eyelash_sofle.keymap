@@ -193,6 +193,16 @@
             tapping-term-ms = <200>;
             flavor = "balanced";
         };
+
+        to_kp: to_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TO_KP";
+            bindings = <&to>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
     };
 
     combos {
@@ -230,7 +240,7 @@
 &lt 2 TAB  &main_mt N1 Q     &main_mt N2 W          &main_mt N3 E     &main_mt N4 R     &main_mt N5 T       &none  &main_mt N6 Y     &main_mt N7 U  &main_mt N8 I     &main_mt N9 O      &main_mt N0 P         &lt 2 BSLH
 &lt 3 ESC  &main_lt 1 A      &main_mt LEFT_SHIFT S  &main_mt LCTRL D  &main_lt 2 F      &main_lt 3 LCTRL    &none  &main_lt 3 RCTRL  &main_lt 2 J   &main_mt RCTRL K  &main_mt RSHIFT L  &main_lt 1 BACKSPACE  &main_lt 1 DEL
 &S4_CAPS   &main_mt LC(Z) Z  &main_mt LC(X) X       &main_mt LC(C) C  &main_mt LC(V) V  &main_mt LC(A) B    &none  &kp N             &kp M          &kp COMMA         &kp DOT            &kp FSLH              &S4_PSCN
-&none      &lt 5 DEL         &kp LEFT_GUI           &kp LEFT_ALT      &lt 1 ENTER       &kp SPACE           &none  &kp RCTRL         &lt 1 SPACE    &S4_PSCN          &kp MINUS          &kp EQUAL
+&none      &lt 5 DEL         &kp LEFT_GUI           &kp LEFT_ALT      &lt 1 ENTER       &to_kp 1 SPACE      &none  &to_kp 2 RCTRL    &lt 1 SPACE    &S4_PSCN          &kp MINUS          &kp EQUAL
             >;
 
             display-name = "LAYER0";
@@ -240,7 +250,7 @@
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR_ALL  &bt BT_CLR  &bootloader    &trans  &trans     &trans     &trans    &trans     &trans     &trans
 &kp GRAVE     &kp N1        &kp N2        &kp N3          &kp N4      &kp N5         &kp N6  &kp N6     &kp N7     &kp N8    &kp N9     &kp N0     &trans
-&trans        &trans        &kp END       &kp PG_UP       &kp PG_DN   &kp HOME       &trans  &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &kp SEMI   &kp APOS
+&to 0         &trans        &kp END       &kp PG_UP       &kp PG_DN   &kp HOME       &trans  &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &kp SEMI   &kp APOS
 &trans        &trans        &trans        &trans          &trans      &trans         &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp MINUS  &kp EQUAL
 &trans        &trans        &trans        &trans          &trans      &trans         &trans  &trans     &trans     &trans    &trans     &trans
             >;
@@ -253,7 +263,7 @@
             bindings = <
 &trans     &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &trans       &trans  &trans     &trans    &trans    &trans    &trans     &trans
 &kp TILDE  &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &trans  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR   &trans
-&trans     &trans    &trans    &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &kp COLON  &kp DQT
+&to 0      &trans    &trans    &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &kp COLON  &kp DQT
 &trans     &trans    &trans    &trans    &trans    &trans       &trans  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp UNDER  &kp PLUS
 &trans     &trans    &trans    &trans    &trans    &trans       &trans  &trans     &trans    &trans    &trans    &trans
             >;
