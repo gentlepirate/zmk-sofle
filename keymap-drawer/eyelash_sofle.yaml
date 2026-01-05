@@ -15,8 +15,8 @@ layers:
   - {t: F11, s: '-'}
   - {t: F12, s: '='}
   - {t: '$$mdi:keyboard-tab$$', h: L-2}
-  - Q
-  - W
+  - {t: Q, h: '1'}
+  - {t: W, h: '2'}
   - E
   - R
   - T
