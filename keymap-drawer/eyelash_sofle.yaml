@@ -28,18 +28,18 @@ layers:
   - P
   - {t: \, h: L-2, s: '|'}
   - {t: '$$mdi:keyboard-esc$$', h: L-3}
-  - {t: A, h: '&lt 1'}
+  - {t: A, h: L-1}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '&lt 2'}
-  - {t: G, h: '&lt 3'}
+  - {t: F, h: L-2}
+  - {t: G, h: L-3}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: H, h: '&lt 3'}
+  - {t: H, h: L-3}
   - J
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace$$', h: '&lt 1'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '&lt 1'}
+  - {t: '$$mdi:backspace$$', h: L-1}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: L-1}
   - '&S4_CAPS'
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '&lt 4'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: layer1}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace-reverse-outline$$', h: layer2}
   - $$mdi:apple-keyboard-command$$
@@ -93,7 +93,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
+  - {t: '1', s: '!', type: held}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
@@ -103,8 +103,8 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '`', s: '~'}
+  - {t: '0', s: ), type: held alternate}
+  - {t: '`', s: '~', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -122,7 +122,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -161,7 +161,7 @@ layers:
   - '!'
   - '@'
   - '#'
-  - $
+  - {t: $, type: held alternate}
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
   - ^
@@ -227,9 +227,9 @@ layers:
   - END
   - PG UP
   - PG DN
-  - HOME
+  - {t: HOME, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', type: held alternate}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
@@ -312,7 +312,7 @@ layers:
   - Ins
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
