@@ -13,7 +13,7 @@ layers:
   - {t: F9, s: '9'}
   - {t: F10, s: '0'}
   - {t: F11, s: '-'}
-  - {t: F12, s: '='}
+  - '&tog_on 1'
   - {t: '$$mdi:keyboard-tab$$', h: layer2}
   - {t: Q, h: '1'}
   - {t: W, h: '2'}
@@ -93,7 +93,7 @@ layers:
   - {t: '0', s: )}
   - {t: '-', s: _}
   - {t: LAYER0, h: toggle}
-  - {t: L-1, h: toggle}
+  - '&tog_on 1'
   - HOME
   - {t: PG DN, type: held}
   - PG UP
