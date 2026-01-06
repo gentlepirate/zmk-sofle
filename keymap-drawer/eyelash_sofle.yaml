@@ -14,7 +14,7 @@ layers:
   - {t: F10, s: '0'}
   - {t: F11, s: '-'}
   - {t: F12, s: '='}
-  - {t: '$$mdi:keyboard-tab$$', h: L-2}
+  - $$mdi:keyboard-tab$$
   - {t: Q, h: '1'}
   - {t: W, h: '2'}
   - {t: E, h: '3'}
@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '~', type: held}
+  - '~'
   - '!'
   - '@'
   - '#'
@@ -156,7 +156,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: _, type: held alternate}
+  - {t: _, type: held}
   - {t: LAYER0, h: toggle}
   - {t: L-2, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
