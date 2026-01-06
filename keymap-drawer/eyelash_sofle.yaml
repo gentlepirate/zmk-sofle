@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: L-1}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '&S4_PSCN'
+  - {t: '''', h: layer2, s: '"'}
   L-1:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -389,7 +389,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
