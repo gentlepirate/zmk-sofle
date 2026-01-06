@@ -39,7 +39,7 @@ layers:
   - {t: K, h: L-1}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: layer1}
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
