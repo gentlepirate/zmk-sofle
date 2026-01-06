@@ -284,11 +284,11 @@
 
         layer0 {
             bindings = <
-&mF1                &mF2                &mF3                &mF4                &mF5              &mF6                &none  &mF7              &mF8           &mF9           &mF10              &mF11                     &mF12
-&slow_lt 5 TAB      &main_mt N1 Q       &main_mt N2 W       &main_mt N3 E       &main_mt N4 R     &main_mt N5 T       &none  &main_mt N6 Y     &main_mt N7 U  &main_mt N8 I  &main_mt N9 O      &main_mt N0 P             &lt 2 BSLH
-&slow_mt LCTRL ESC  &main_mt LCTRL A    &main_mt LSHFT S    &main_lt 1 D        &main_lt 2 F      &main_mt LCTRL G    &none  &main_mt RCTRL H  &main_lt 2 J   &main_lt 1 K   &main_mt RSHIFT L  &main_mt RCTRL BACKSPACE  &main_mt RCTRL SEMI
-&lt 4 DEL           &main_mt LC(Z) Z    &main_mt LC(X) X    &main_mt LC(C) C    &main_mt LC(V) V  &main_mt LC(A) B    &none  &kp N             &kp M          &kp COMMA      &kp DOT            &kp FSLH                  &lt 4 DEL
-&none               &mt CAPS BACKSPACE  &mt LEFT_GUI MINUS  &mt LEFT_ALT EQUAL  &lt 1 ENTER       &lt 2 SPACE         &none  &lt 2 SEMI        &lt 1 SPACE    &kp LBKT       &kp RBKT           &lt 5 SQT
+&mF1                &mF2                &mF3                &mF4                &mF5              &mF6                &none  &mF7              &mF8              &mF9           &mF10              &mF11                     &mF12
+&slow_lt 5 TAB      &main_mt N1 Q       &main_mt N2 W       &main_mt N3 E       &main_mt N4 R     &main_mt N5 T       &none  &main_mt N6 Y     &main_mt N7 U     &main_mt N8 I  &main_mt N9 O      &main_mt N0 P             &lt 2 BSLH
+&slow_mt LCTRL ESC  &main_mt LCTRL A    &main_mt LSHFT S    &main_lt 1 D        &main_lt 2 F      &main_mt LCTRL G    &none  &main_mt RCTRL H  &main_lt 2 J      &main_lt 1 K   &main_mt RSHIFT L  &main_mt RCTRL BACKSPACE  &main_mt RCTRL SEMI
+&lt 4 DEL           &main_mt LC(Z) Z    &main_mt LC(X) X    &main_mt LC(C) C    &main_mt LC(V) V  &main_mt LC(A) B    &none  &kp N             &kp M             &kp COMMA      &kp DOT            &kp FSLH                  &lt 4 DEL
+&none               &mt CAPS BACKSPACE  &mt LEFT_GUI MINUS  &mt LEFT_ALT EQUAL  &slow_lt 1 ENTER  &lt 2 SPACE         &none  &lt 2 SEMI        &slow_lt 1 SPACE  &kp LBKT       &kp RBKT           &lt 5 SQT
             >;
 
             display-name = "LAYER0";
