@@ -106,7 +106,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '1', s: '!'}
-  - B
+  - C
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
