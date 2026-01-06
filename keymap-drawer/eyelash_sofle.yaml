@@ -27,20 +27,20 @@ layers:
   - {t: O, h: '9'}
   - {t: P, h: '0'}
   - {t: \, h: L-2, s: '|'}
-  - {t: '$$mdi:keyboard-esc$$', h: L-3}
-  - {t: A, h: L-1}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: L-1}
   - {t: F, h: L-2}
   - {t: G, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: J, h: L-2}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: L-1}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace$$', h: L-1}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: L-1}
-  - '&S4_CAPS'
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+  - '&S_CAPS'
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
   - {t: C, h: Ctl+C}
@@ -93,18 +93,18 @@ layers:
   - {t: '0', s: )}
   - {t: '-', s: _}
   - {t: LAYER0, h: toggle}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - HOME
-  - PG DN
+  - {t: PG DN, type: held}
   - PG UP
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:arrow-up-bold$$', type: held alternate}
   - $$mdi:arrow-right-bold$$
-  - {t: ;, s: ':', type: held alternate}
-  - {t: '''', s: '"', type: held alternate}
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -222,7 +222,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - END
   - PG UP
