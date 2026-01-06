@@ -39,7 +39,7 @@ layers:
   - {t: K, h: L-1}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: layer1}
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&S4_PSCN'
+  - {t: '$$mdi:backspace-reverse-outline$$', h: layer1}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-caps$$'}
   - {t: '-', h: '$$mdi:apple-keyboard-command$$', s: _}
@@ -312,7 +312,7 @@ layers:
   - Ins
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
