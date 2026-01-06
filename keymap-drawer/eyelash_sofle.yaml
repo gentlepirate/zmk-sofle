@@ -172,7 +172,7 @@ layers:
   - '"'
   - {t: '2', s: '@'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&ca_cx'
   - '&ca_cc'
   - '&ca_cv'
   - {t: '$$mdi:transfer$$', type: trans}
