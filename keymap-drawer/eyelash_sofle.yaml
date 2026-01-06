@@ -55,16 +55,16 @@ layers:
   - '&S4_PSCN'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace-reverse-outline$$', h: layer2}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '-', h: '$$mdi:apple-keyboard-command$$', s: _}
+  - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '$$mdi:keyboard-return$$', h: L-1}
   - {t: '$$mdi:keyboard-space$$', h: L-1}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-control$$', h: L-2}
   - {t: '$$mdi:keyboard-space$$', h: L-1}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - '&S4_PSCN'
-  - {t: '-', s: _}
-  - {t: '=', s: +}
   L-1:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
