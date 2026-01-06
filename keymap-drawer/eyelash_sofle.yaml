@@ -136,7 +136,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB5'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
