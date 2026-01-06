@@ -93,7 +93,7 @@ layers:
   - {t: '0', s: )}
   - {t: '-', s: _}
   - {t: LAYER0, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: L-1, h: toggle}
   - HOME
   - {t: PG DN, type: held}
   - PG UP
@@ -105,7 +105,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '1', s: '!'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -158,7 +158,7 @@ layers:
   - )
   - {t: _, type: held alternate}
   - {t: LAYER0, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: L-2, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
@@ -170,7 +170,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - ':'
   - '"'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '2', s: '@'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
