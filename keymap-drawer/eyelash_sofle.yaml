@@ -14,7 +14,7 @@ layers:
   - {t: F10, s: '0'}
   - {t: F11, s: '-'}
   - {t: F12, s: '='}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: layer2}
   - {t: Q, h: '1'}
   - {t: W, h: '2'}
   - {t: E, h: '3'}
@@ -106,7 +106,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '1', s: '!'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - A
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -339,7 +339,7 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
