@@ -67,7 +67,7 @@
         mF2: mF2 {
             compatible = "zmk,behavior-mod-morph";
             label = "MF2";
-            bindings = <&kp F1>, <&kp N2>;
+            bindings = <&kp F2>, <&kp N2>;
 
             #binding-cells = <0>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
