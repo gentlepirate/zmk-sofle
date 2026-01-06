@@ -247,7 +247,7 @@
         ca_cc: ca_cc {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(C) &kp LC(V)>;
+            bindings = <&kp LC(A) &kp LC(C)>;
             label = "CA_CC";
         };
     };
