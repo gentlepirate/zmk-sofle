@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: L-1}
   - {t: '$$mdi:keyboard-space$$', h: L-2}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-control$$', h: L-2}
+  - {t: ;, h: L-2, s: ':'}
   - {t: '$$mdi:keyboard-space$$', h: L-1}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
