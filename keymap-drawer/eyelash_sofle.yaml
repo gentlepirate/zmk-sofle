@@ -39,7 +39,7 @@ layers:
   - {t: K, h: L-1}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: layer1}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: layer1}
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
@@ -299,8 +299,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
-  - {t: ']', s: '}', type: held}
-  - {type: held alternate}
+  - {t: ']', s: '}'}
+  - {type: held}
   - RGB OFF
   - RGB ON
   - RGB EFF
