@@ -40,19 +40,7 @@
             tap-ms = <100>;
         };
 
-        S4_CAPS: S4_CAPS {
-            compatible = "zmk,behavior-tap-dance";
-            label = "S4_CAPS";
-            #binding-cells = <0>;
-            bindings = <&lt 4 LSHIFT>, <&kp CAPS>;
-        };
 
-        S4_PSCN: S4_PSCN {
-            compatible = "zmk,behavior-tap-dance";
-            label = "S4_PSCN";
-            #binding-cells = <0>;
-            bindings = <&lt 4 PRINTSCREEN>, <&kp PRINTSCREEN>;
-        };
 
         mF1: mF1 {
             compatible = "zmk,behavior-mod-morph";
@@ -174,7 +162,54 @@
             keep-mods = <(MOD_RGUI|MOD_LGUI)>;
         };
 
-        main_mt: main_mt {
+
+        S_CAPS: S_CAPS {
+            compatible = "zmk,behavior-tap-dance";
+            label = "S_CAPS";
+            #binding-cells = <0>;
+            bindings = <&kp LSHFT>, <&kp CAPS>;
+        };
+
+        S4_CAPS: S4_CAPS {
+            compatible = "zmk,behavior-tap-dance";
+            label = "S4_CAPS";
+            #binding-cells = <0>;
+            bindings = <&lt 4 LSHIFT>, <&kp CAPS>;
+        };
+
+        S4_PSCN: S4_PSCN {
+            compatible = "zmk,behavior-tap-dance";
+            label = "S4_PSCN";
+            #binding-cells = <0>;
+            bindings = <&lt 4 PRINTSCREEN>, <&kp PRINTSCREEN>;
+        };
+
+
+        tog_on: tog_on {
+            compatible = "zmk,behavior-toggle-layer";
+            label = "TOG_ON";
+            #binding-cells = <1>;
+        };
+
+        to_kp: to_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TO_KP";
+            bindings = <&to>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
+        mkp_kp_main: mkp_kp_main {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MKP_KP_MAIN";
+            bindings = <&mkp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <250>;
+        };
+                main_mt: main_mt {
             compatible = "zmk,behavior-hold-tap";
             label = "MAIN_MT";
             bindings = <&kp>, <&kp>;
@@ -194,12 +229,6 @@
             flavor = "balanced";
         };
 
-        S_CAPS: S_CAPS {
-            compatible = "zmk,behavior-tap-dance";
-            label = "S_CAPS";
-            #binding-cells = <0>;
-            bindings = <&kp LSHFT>, <&kp CAPS>;
-        };
 
         slow_mt: slow_mt {
             compatible = "zmk,behavior-hold-tap";
@@ -220,23 +249,6 @@
             tapping-term-ms = <350>;
             flavor = "balanced";
         };
-
-        tog_on: tog_on {
-            compatible = "zmk,behavior-toggle-layer";
-            label = "TOG_ON";
-            #binding-cells = <1>;
-        };
-
-        to_kp: to_kp {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TO_KP";
-            bindings = <&to>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-        };
-
         to_kp_slow: to_kp_slow {
             compatible = "zmk,behavior-hold-tap";
             label = "TO_KP_SLOW";
@@ -247,14 +259,7 @@
             flavor = "balanced";
         };
 
-        mkp_kp_main: mkp_kp_main {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MKP_KP_MAIN";
-            bindings = <&mkp>, <&kp>;
 
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-        };
     };
 
     combos {
