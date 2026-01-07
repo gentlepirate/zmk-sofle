@@ -40,8 +40,6 @@
             tap-ms = <100>;
         };
 
-
-
         mF1: mF1 {
             compatible = "zmk,behavior-mod-morph";
             label = "MF1";
@@ -162,7 +160,6 @@
             keep-mods = <(MOD_RGUI|MOD_LGUI)>;
         };
 
-
         S_CAPS: S_CAPS {
             compatible = "zmk,behavior-tap-dance";
             label = "S_CAPS";
@@ -183,7 +180,6 @@
             #binding-cells = <0>;
             bindings = <&lt 4 PRINTSCREEN>, <&kp PRINTSCREEN>;
         };
-
 
         tog_on: tog_on {
             compatible = "zmk,behavior-toggle-layer";
@@ -209,9 +205,10 @@
             #binding-cells = <2>;
             tapping-term-ms = <250>;
         };
-                main_mt: main_mt {
+
+        mt_main: mt_main {
             compatible = "zmk,behavior-hold-tap";
-            label = "MAIN_MT";
+            label = "MT_MAIN";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -219,9 +216,9 @@
             flavor = "balanced";
         };
 
-        main_lt: main_lt {
+        lt_main: lt_main {
             compatible = "zmk,behavior-hold-tap";
-            label = "MAIN_LT";
+            label = "LT_MAIN";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
@@ -229,37 +226,35 @@
             flavor = "balanced";
         };
 
-
-        slow_mt: slow_mt {
+        mt_slow: mt_slow {
             compatible = "zmk,behavior-hold-tap";
-            label = "SLOW_MT";
+            label = "MT_SLOW";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <350>;
+            tapping-term-ms = <400>;
             flavor = "balanced";
         };
 
-        slow_lt: slow_lt {
+        lt_slow: lt_slow {
             compatible = "zmk,behavior-hold-tap";
-            label = "SLOW_LT";
+            label = "LT_SLOW";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <350>;
+            tapping-term-ms = <400>;
             flavor = "balanced";
         };
+
         to_kp_slow: to_kp_slow {
             compatible = "zmk,behavior-hold-tap";
             label = "TO_KP_SLOW";
             bindings = <&to>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <350>;
+            tapping-term-ms = <400>;
             flavor = "balanced";
         };
-
-
     };
 
     combos {
@@ -315,10 +310,10 @@
         layer0 {
             bindings = <
 &mF1                &mF2                &mF3                &mF4                &mF5              &mF6                   &none  &mF7                  &mF8              &mF9           &mF10              &mF11                &mF12
-&to_kp_slow 1 TAB   &main_mt N1 Q       &main_mt N2 W       &main_mt N3 E       &main_mt N4 R     &main_mt N5 T          &none  &main_mt N6 Y         &main_mt N7 U     &main_mt N8 I  &main_mt N9 O      &main_mt N0 P        &to_kp_slow 2 BACKSPACE
-&slow_mt LCTRL ESC  &main_mt LC(A) A    &main_mt LSHFT S    &main_lt 1 D        &main_lt 2 F      &main_mt LCTRL G       &none  &main_mt RCTRL H      &main_lt 2 J      &main_lt 1 K   &main_mt RSHIFT L  &main_mt RCTRL SEMI  &mt RCTRL SQT
-&mt LSHFT DEL       &main_mt LC(Z) Z    &main_mt LC(X) X    &main_mt LC(C) C    &main_mt LC(V) V  &mkp_kp_main LCLK B    &none  &kp N                 &kp M             &kp COMMA      &kp DOT            &kp FSLH             &slow_mt RSHFT DEL
-&none               &mt CAPS BACKSPACE  &mt LEFT_GUI EQUAL  &mt LEFT_ALT MINUS  &slow_lt 1 ENTER  &slow_lt 2 SPACE       &none  &slow_mt ENTER RSHFT  &slow_lt 1 SPACE  &kp LBKT       &kp RBKT           &to_kp_slow 3 BSLH
+&to_kp_slow 1 TAB   &mt_main N1 Q       &mt_main N2 W       &mt_main N3 E       &mt_main N4 R     &mt_main N5 T          &none  &mt_main N6 Y         &mt_main N7 U     &mt_main N8 I  &mt_main N9 O      &mt_main N0 P        &to_kp_slow 2 BACKSPACE
+&mt_slow LCTRL ESC  &mt_main LC(A) A    &mt_main LSHFT S    &lt_main 1 D        &lt_main 2 F      &mt_main LCTRL G       &none  &mt_main RCTRL H      &lt_main 2 J      &lt_main 1 K   &mt_main RSHIFT L  &mt_main RCTRL SEMI  &mt RCTRL SQT
+&mt LSHFT DEL       &mt_main LC(Z) Z    &mt_main LC(X) X    &mt_main LC(C) C    &mt_main LC(V) V  &mkp_kp_main LCLK B    &none  &kp N                 &kp M             &kp COMMA      &kp DOT            &kp FSLH             &mt_slow RSHFT DEL
+&none               &mt CAPS BACKSPACE  &mt LEFT_GUI EQUAL  &mt LEFT_ALT MINUS  &lt_slow 1 ENTER  &lt_slow 2 SPACE       &none  &mt_slow ENTER RSHFT  &lt_slow 1 SPACE  &kp LBKT       &kp RBKT           &to_kp_slow 3 BSLH
             >;
 
             display-name = "LAYER0";
