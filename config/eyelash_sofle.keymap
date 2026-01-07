@@ -310,7 +310,7 @@
         layer0 {
             bindings = <
 &mF1                &mF2                &mF3                &mF4                &mF5              &mF6                   &none  &mF7              &mF8              &mF9           &mF10              &mF11                &mF12
-&to_kp_slow 1 TAB   &main_mt N1 Q       &main_mt N2 W       &main_mt N3 E       &main_mt N4 R     &main_mt N5 T          &none  &main_mt N6 Y     &main_mt N7 U     &main_mt N8 I  &main_mt N9 O      &main_mt N0 P        &kp BACKSPACE
+&to_kp_slow 1 TAB   &main_mt N1 Q       &main_mt N2 W       &main_mt N3 E       &main_mt N4 R     &main_mt N5 T          &none  &main_mt N6 Y     &main_mt N7 U     &main_mt N8 I  &main_mt N9 O      &main_mt N0 P        &to_kp_slow 2 BACKSPACE
 &slow_mt LCTRL ESC  &main_mt LC(A) A    &main_mt LSHFT S    &main_lt 1 D        &main_lt 2 F      &main_mt LCTRL G       &none  &main_mt RCTRL H  &main_lt 2 J      &main_lt 1 K   &main_mt RSHIFT L  &main_mt RCTRL SEMI  &mt RCTRL SQT
 &mt LSHFT DEL       &main_mt LC(Z) Z    &main_mt LC(X) X    &main_mt LC(C) C    &main_mt LC(V) V  &mkp_kp_main LCLK B    &none  &kp N             &kp M             &kp COMMA      &kp DOT            &kp FSLH             &kp DEL
 &none               &mt CAPS BACKSPACE  &mt LEFT_GUI EQUAL  &mt LEFT_ALT MINUS  &slow_lt 1 ENTER  &slow_lt 2 SPACE       &none  &slow_lt 2 ENTER  &slow_lt 1 SPACE  &kp LBKT       &kp RBKT           &kp BSLH
