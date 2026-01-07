@@ -13,7 +13,7 @@ layers:
   - {t: F9, s: '9'}
   - {t: F10, s: '0'}
   - {t: F11, s: '-'}
-  - '&tog_on 1'
+  - {t: F12, s: '='}
   - {t: '$$mdi:keyboard-tab$$', h: L-1}
   - {t: Q, h: '1'}
   - {t: W, h: '2'}
@@ -45,7 +45,7 @@ layers:
   - {t: X, h: Ctl+X}
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
-  - {t: B, h: Ctl+A}
+  - {t: B, h: '$$mdi:mouse-left-click-outline$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - M
@@ -91,7 +91,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '-', s: _}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: LAYER0, h: toggle}
   - '&tog_on 1'
   - HOME
@@ -103,8 +103,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:arrow-up-bold$$', type: held alternate}
   - $$mdi:arrow-right-bold$$
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - {t: '1', s: '!'}
   - C
   - $$mdi:arrow-left-bold$$
@@ -112,10 +112,10 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: L-1, h: toggle, type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -156,9 +156,9 @@ layers:
   - '*'
   - (
   - )
-  - _
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: LAYER0, h: toggle}
-  - {t: L-2, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -168,8 +168,8 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - ':'
-  - '"'
+  - _
+  - +
   - {t: '2', s: '@'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&ca_cx'
@@ -177,21 +177,21 @@ layers:
   - '&ca_cv'
   - Ctl+A
   - {t: '$$mdi:transfer$$', type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - _
-  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {t: L-2, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
