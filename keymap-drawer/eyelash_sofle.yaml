@@ -55,8 +55,8 @@ layers:
   - {t: '''', h: layer1, s: '"'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-caps$$'}
-  - {t: '-', h: '$$mdi:apple-keyboard-command$$', s: _}
-  - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
+  - {t: '=', h: '$$mdi:apple-keyboard-command$$', s: +}
+  - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
   - {t: '$$mdi:keyboard-return$$', h: L-1}
   - {t: '$$mdi:keyboard-space$$', h: L-1}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
