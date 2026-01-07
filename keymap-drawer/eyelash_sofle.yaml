@@ -28,7 +28,7 @@ layers:
   - {t: P, h: '0'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: Ctl+A}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: D, h: L-1}
   - {t: F, h: L-2}
@@ -116,8 +116,8 @@ layers:
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
