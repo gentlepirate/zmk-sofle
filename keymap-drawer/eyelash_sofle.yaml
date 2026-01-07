@@ -129,7 +129,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - D
+  - E
   L-2:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
