@@ -246,6 +246,15 @@
             tapping-term-ms = <350>;
             flavor = "balanced";
         };
+
+        mkp_kp_main: mkp_kp_main {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MKP_KP_MAIN";
+            bindings = <&mkp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <250>;
+        };
     };
 
     combos {
@@ -300,11 +309,11 @@
 
         layer0 {
             bindings = <
-&mF1                &mF2                &mF3                &mF4                &mF5              &mF6                &none  &mF7              &mF8              &mF9           &mF10              &mF11                &tog_on 1
-&to_kp_slow 1 TAB   &main_mt N1 Q       &main_mt N2 W       &main_mt N3 E       &main_mt N4 R     &main_mt N5 T       &none  &main_mt N6 Y     &main_mt N7 U     &main_mt N8 I  &main_mt N9 O      &main_mt N0 P        &kp BACKSPACE
-&slow_mt LCTRL ESC  &main_mt LC(A) A    &main_mt LSHFT S    &main_lt 1 D        &main_lt 2 F      &main_mt LCTRL G    &none  &main_mt RCTRL H  &main_lt 2 J      &main_lt 1 K   &main_mt RSHIFT L  &main_mt RCTRL SEMI  &mt RCTRL SQT
-&mt LSHFT DEL       &main_mt LC(Z) Z    &main_mt LC(X) X    &main_mt LC(C) C    &main_mt LC(V) V  &main_mt LC(A) B    &none  &kp N             &kp M             &kp COMMA      &kp DOT            &kp FSLH             &kp DEL
-&none               &mt CAPS BACKSPACE  &mt LEFT_GUI EQUAL  &mt LEFT_ALT MINUS  &slow_lt 1 ENTER  &slow_lt 2 SPACE    &none  &slow_lt 2 ENTER  &slow_lt 1 SPACE  &kp LBKT       &kp RBKT           &kp BSLH
+&mF1                &mF2                &mF3                &mF4                &mF5              &mF6                   &none  &mF7              &mF8              &mF9           &mF10              &mF11                &mF12
+&to_kp_slow 1 TAB   &main_mt N1 Q       &main_mt N2 W       &main_mt N3 E       &main_mt N4 R     &main_mt N5 T          &none  &main_mt N6 Y     &main_mt N7 U     &main_mt N8 I  &main_mt N9 O      &main_mt N0 P        &kp BACKSPACE
+&slow_mt LCTRL ESC  &main_mt LC(A) A    &main_mt LSHFT S    &main_lt 1 D        &main_lt 2 F      &main_mt LCTRL G       &none  &main_mt RCTRL H  &main_lt 2 J      &main_lt 1 K   &main_mt RSHIFT L  &main_mt RCTRL SEMI  &mt RCTRL SQT
+&mt LSHFT DEL       &main_mt LC(Z) Z    &main_mt LC(X) X    &main_mt LC(C) C    &main_mt LC(V) V  &mkp_kp_main LCLK B    &none  &kp N             &kp M             &kp COMMA      &kp DOT            &kp FSLH             &kp DEL
+&none               &mt CAPS BACKSPACE  &mt LEFT_GUI EQUAL  &mt LEFT_ALT MINUS  &slow_lt 1 ENTER  &slow_lt 2 SPACE       &none  &slow_lt 2 ENTER  &slow_lt 1 SPACE  &kp LBKT       &kp RBKT           &kp BSLH
             >;
 
             display-name = "LAYER0";
@@ -312,11 +321,11 @@
 
         L1 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR_ALL  &bt BT_CLR  &bootloader    &trans  &trans     &trans     &trans    &trans     &trans    &trans
-&kp GRAVE     &kp N1        &kp N2        &kp N3          &kp N4      &kp N5         &kp N6  &kp N6     &kp N7     &kp N8    &kp N9     &kp N0    &kp MINUS
-&to 0         &tog_on 1     &kp HOME      &kp PG_DN       &kp PG_UP   &kp END        &trans  &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &kp SEMI  &kp APOS
-&kp N1        &kp C         &kp LEFT      &kp DOWN        &kp UP      &kp RIGHT      &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &trans    &trans
-&trans        &trans        &trans        &trans          &trans      &trans         &trans  &trans     &tog 1     &trans    &trans     &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR_ALL  &bt BT_CLR  &bootloader    &trans  &trans    &trans    &trans  &trans     &trans     &trans
+&kp GRAVE     &kp N1        &kp N2        &kp N3          &kp N4      &kp N5         &kp N6  &kp N6    &kp N7    &kp N8  &kp N9     &kp N0     &trans
+&to 0         &tog_on 1     &kp HOME      &kp PG_DN       &kp PG_UP   &kp END        &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp MINUS  &kp EQUAL
+&kp N1        &kp C         &kp LEFT      &kp DOWN        &kp UP      &kp RIGHT      &trans  &trans    &trans    &trans  &trans     &trans     &trans
+&trans        &trans        &trans        &trans          &trans      &trans         &trans  &trans    &trans    &trans  &trans     &trans
             >;
 
             display-name = "L-1";
@@ -326,10 +335,10 @@
         L2 {
             bindings = <
 &trans     &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &bootloader    &trans  &trans     &trans    &trans    &trans    &trans     &trans
-&kp TILDE  &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT      &trans  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR   &kp UNDER
-&to 0      &to 2     &trans    &trans    &trans    &trans         &trans  &trans     &trans    &trans    &trans    &kp COLON  &kp DQT
-&kp N2     &trans    &ca_cx    &ca_cc    &ca_cv    &kp LC(A)      &trans  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp UNDER  &kp PLUS
-&trans     &trans    &trans    &trans    &trans    &trans         &trans  &trans     &tog 2    &trans    &trans    &trans
+&kp TILDE  &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT      &trans  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR   &trans
+&to 0      &trans    &trans    &trans    &trans    &trans         &trans  &trans     &trans    &trans    &trans    &kp UNDER  &kp PLUS
+&kp N2     &trans    &ca_cx    &ca_cc    &ca_cv    &kp LC(A)      &trans  &trans     &trans    &trans    &trans    &trans     &trans
+&trans     &trans    &trans    &trans    &trans    &trans         &trans  &trans     &trans    &trans    &trans    &trans
             >;
 
             display-name = "L-2";
