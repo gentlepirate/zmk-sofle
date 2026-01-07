@@ -14,7 +14,7 @@ layers:
   - {t: F10, s: '0'}
   - {t: F11, s: '-'}
   - '&tog_on 1'
-  - {t: '$$mdi:keyboard-tab$$', h: layer2}
+  - {t: '$$mdi:keyboard-tab$$', h: L-1}
   - {t: Q, h: '1'}
   - {t: W, h: '2'}
   - {t: E, h: '3'}
@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: L-1}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
   - {t: C, h: Ctl+C}
@@ -339,7 +339,7 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
