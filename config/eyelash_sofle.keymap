@@ -294,7 +294,7 @@
 &slow_lt 5 TAB      &main_mt N1 Q       &main_mt N2 W       &main_mt N3 E       &main_mt N4 R     &main_mt N5 T       &none  &main_mt N6 Y     &main_mt N7 U     &main_mt N8 I  &main_mt N9 O      &main_mt N0 P             &lt 2 BSLH
 &slow_mt LCTRL ESC  &main_mt LCTRL A    &main_mt LSHFT S    &main_lt 1 D        &main_lt 2 F      &main_mt LCTRL G    &none  &main_mt RCTRL H  &main_lt 2 J      &main_lt 1 K   &main_mt RSHIFT L  &main_mt RCTRL BACKSPACE  &mt RCTRL DEL
 &slow_lt 4 DEL      &main_mt LC(Z) Z    &main_mt LC(X) X    &main_mt LC(C) C    &main_mt LC(V) V  &main_mt LC(A) B    &none  &kp N             &kp M             &kp COMMA      &kp DOT            &kp FSLH                  &main_lt 4 SQT
-&none               &mt CAPS BACKSPACE  &mt LEFT_GUI MINUS  &mt LEFT_ALT EQUAL  &slow_lt 1 ENTER  &to_kp 1 SPACE      &none  &slow_lt 2 SEMI   &slow_lt 1 SPACE  &kp LBKT       &kp RBKT           &to 1
+&none               &mt CAPS BACKSPACE  &mt LEFT_GUI EQUAL  &mt LEFT_ALT MINUS  &slow_lt 1 ENTER  &to_kp 1 SPACE      &none  &slow_lt 2 SEMI   &slow_lt 1 SPACE  &kp LBKT       &kp RBKT           &to 1
             >;
 
             display-name = "LAYER0";
