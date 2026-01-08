@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: ;}
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
   - {t: C, h: Ctl+C}
@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-caps$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-caps$$'}
   - {t: '=', h: '$$mdi:apple-keyboard-command$$', s: +}
   - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
   - {t: '$$mdi:keyboard-return$$', h: L-1}
