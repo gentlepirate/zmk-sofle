@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: L-1}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: \, h: L-3, s: '|'}
+  - {t: L-3, h: \}
   L-1:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
