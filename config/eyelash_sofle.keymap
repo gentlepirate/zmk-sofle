@@ -335,7 +335,7 @@
 &to_kp_slow 0 GRAVE  &kp N1  &kp N2    &kp N3     &kp N4     &kp N5       &trans  &kp N6    &kp N7    &kp N8  &kp N9     &kp N0     &trans
 &trans               &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END      &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp MINUS  &kp EQUAL
 &trans               &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT    &trans  &trans    &trans    &trans  &trans     &trans     &trans
-&trans               &trans  &trans    &trans     &trans     &trans       &trans  &trans    &trans    &trans  &trans     &kp D
+&trans               &trans  &trans    &trans     &trans     &trans       &trans  &trans    &trans    &trans  &trans     &kp A
             >;
 
             display-name = "L-1";
