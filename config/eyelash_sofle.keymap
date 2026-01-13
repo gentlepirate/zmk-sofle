@@ -265,6 +265,36 @@
             tapping-term-ms = <400>;
             flavor = "balanced";
         };
+
+        mMB1_F1: mMB1_F1 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MMB1_F1";
+            bindings = <&mkp_kp_main MB1 F1>, <&kp N1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        mMB2_F2: mMB2_F2 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MMB2_F2";
+            bindings = <&mkp_kp_main MB2 F2>, <&kp N1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        mMB3_F3: mMB3_F3 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MMB3_F3";
+            bindings = <&mkp_kp_main MB3 F3>, <&kp N1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
     };
 
     combos {
@@ -319,7 +349,7 @@
 
         layer0 {
             bindings = <
-&mF1                 &mF2              &mF3              &mF4                &mF5              &mF6                   &none  &mF7                  &mF8              &mF9                &mF10              &mF11                    &mF12
+&mMB1_F1             &mMB2_F2          &mMB3_F3          &mF4                &mF5              &mF6                   &none  &mF7                  &mF8              &mF9                &mF10              &mF11                    &mF12
 &to_kp_slow 1 TAB    &mt_main N1 Q     &mt_main N2 W     &mt_main N3 E       &mt_main N4 R     &mt_main N5 T          &none  &mt_main N6 Y         &mt_main N7 U     &mt_main N8 I       &mt_main N9 O      &mt_main N0 P            &to_kp_slow 2 CAPS
 &mt_slow LCTRL ESC   &mt_main LC(A) A  &mt_main LSHFT S  &lt_main 1 D        &lt_main 2 F      &mt_main LCTRL G       &none  &mt_main RCTRL H      &lt_main 2 J      &lt_main 1 K        &mt_main RSHIFT L  &mt_main SEMI BACKSPACE  &mt RCTRL SQT
 &mt LSHFT BACKSPACE  &mt_main LC(Z) Z  &mt_main LC(X) X  &mt_main LC(C) C    &mt_main LC(V) V  &mkp_kp_main LCLK B    &none  &kp N                 &kp M             &kp COMMA           &kp DOT            &kp FSLH                 &mt_slow RSHFT DEL
