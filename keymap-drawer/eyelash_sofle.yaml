@@ -2,8 +2,8 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
   - {t: F1, h: '&mkp MB1', s: '1'}
-  - {t: F2, h: '&mkp MB2', s: '1'}
-  - {t: F3, h: '&mkp MB3', s: '1'}
+  - {t: F2, h: '&mkp MB2', s: '2'}
+  - {t: F3, h: '&mkp MB3', s: '3'}
   - {t: F4, s: '4'}
   - {t: F5, s: '5'}
   - {t: F6, s: '6'}
