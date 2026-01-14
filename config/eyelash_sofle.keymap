@@ -279,7 +279,7 @@
         mMB2_F2: mMB2_F2 {
             compatible = "zmk,behavior-mod-morph";
             label = "MMB2_F2";
-            bindings = <&mkp_kp_main MB2 F2>, <&kp N1>;
+            bindings = <&mkp_kp_main MB2 F2>, <&kp N2>;
 
             #binding-cells = <0>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
@@ -289,7 +289,7 @@
         mMB3_F3: mMB3_F3 {
             compatible = "zmk,behavior-mod-morph";
             label = "MMB3_F3";
-            bindings = <&mkp_kp_main MB3 F3>, <&kp N1>;
+            bindings = <&mkp_kp_main MB3 F3>, <&kp N3>;
 
             #binding-cells = <0>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
