@@ -99,10 +99,10 @@ layers:
   - PG UP
   - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:arrow-up-bold$$', type: held alternate}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
+  - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
+  - {t: '$$mdi:arrow-up-bold$$', h: PG UP, type: held alternate}
+  - {t: '$$mdi:arrow-right-bold$$', h: END}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
