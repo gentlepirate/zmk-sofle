@@ -361,11 +361,11 @@
 
         L1 {
             bindings = <
-&to 0                &trans  &trans    &trans     &trans     &trans       &trans  &trans    &trans    &trans  &trans     &trans     &trans
-&to_kp_slow 0 GRAVE  &kp N1  &kp N2    &kp N3     &kp N4     &kp N5       &trans  &kp N6    &kp N7    &kp N8  &kp N9     &kp N0     &trans
-&trans               &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END      &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp MINUS  &kp EQUAL
-&trans               &trans  &ca_cx    &ca_cc     &ca_cv     &kp LC(A)    &trans  &trans    &trans    &trans  &trans     &trans     &trans
-&trans               &trans  &trans    &trans     &trans     &trans       &trans  &trans    &trans    &trans  &trans     &kp D
+&to 0                &trans  &trans    &trans     &trans     &trans       &trans  &trans              &trans               &trans             &trans              &trans     &trans
+&to_kp_slow 0 GRAVE  &kp N1  &kp N2    &kp N3     &kp N4     &kp N5       &trans  &kp N6              &kp N7               &kp N8             &kp N9              &kp N0     &trans
+&trans               &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END      &trans  &mt_main HOME LEFT  &mt_main PG_DN DOWN  &mt_main PG_UP UP  &mt_main END RIGHT  &kp MINUS  &kp EQUAL
+&trans               &trans  &ca_cx    &ca_cc     &ca_cv     &kp LC(A)    &trans  &trans              &trans               &trans             &trans              &trans     &trans
+&trans               &trans  &trans    &trans     &trans     &trans       &trans  &trans              &trans               &trans             &trans              &kp D
             >;
 
             display-name = "L-1";
