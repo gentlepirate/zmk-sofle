@@ -377,7 +377,7 @@
 &to 0                &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &bootloader    &trans  &trans     &trans    &trans    &trans    &trans     &trans
 &to_kp_slow 0 TILDE  &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT      &trans  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR   &trans
 &mkp MB3             &kp N1    &kp N2    &kp N3    &kp N4    &kp N5         &trans  &kp N6     &kp N7    &kp N8    &kp N9    &kp UNDER  &kp PLUS
-&trans               &trans    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT      &trans  &trans     &trans    &trans    &trans    &trans     &trans
+&trans               &trans    &mt_main HOME LEFT  &mt_main PG_DN DOWN  &mt_main PG_UP UP  &mt_main END RIGHT      &trans  &trans     &trans    &trans    &trans    &trans     &trans
 &trans               &trans    &trans    &trans    &trans    &trans         &trans  &trans     &trans    &trans    &trans    &trans
             >;
 
