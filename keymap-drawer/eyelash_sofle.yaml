@@ -93,11 +93,11 @@ layers:
   - {t: '0', s: )}
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
-  - PG DN
-  - {t: PG UP, type: held}
-  - END
   - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
+  - {t: PG DN, type: held}
+  - PG UP
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
@@ -158,11 +158,11 @@ layers:
   - )
   - '~'
   - '&mkp MB3'
-  - {t: '$$mdi:arrow-left-bold$$', h: HOME, type: held}
+  - {type: held}
+  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
   - {t: '$$mdi:arrow-right-bold$$', h: END}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - PG DN
