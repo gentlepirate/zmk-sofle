@@ -110,7 +110,7 @@ layers:
   - '&ca_cx'
   - '&ca_cc'
   - '&ca_cv'
-  - '&ca_cv_enter'
+  - '&cv_enter'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
