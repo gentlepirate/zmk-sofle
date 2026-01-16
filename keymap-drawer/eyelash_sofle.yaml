@@ -158,16 +158,16 @@ layers:
   - )
   - '~'
   - '&mkp MB3'
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $, type: held}
+  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
+  - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
+  - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
+  - {t: '$$mdi:arrow-right-bold$$', h: END, type: held}
   - {t: '5', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&', type: held alternate}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
+  - {t: '$$mdi:arrow-down-bold$$', h: PG DN, type: held alternate}
+  - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
+  - {t: '$$mdi:arrow-right-bold$$', h: END}
   - _
   - +
   - {t: '$$mdi:transfer$$', type: trans}
