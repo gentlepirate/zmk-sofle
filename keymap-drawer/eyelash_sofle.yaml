@@ -32,7 +32,7 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: D, h: L-1}
   - {t: F, h: L-2}
-  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: G, h: '$$mdi:mouse-left-click-outline$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: J, h: L-2}
@@ -45,7 +45,7 @@ layers:
   - {t: X, h: Ctl+X}
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
-  - {t: B, h: '$$mdi:mouse-left-click-outline$$'}
+  - {t: B, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - M
