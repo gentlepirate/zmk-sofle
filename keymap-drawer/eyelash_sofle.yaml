@@ -29,15 +29,15 @@ layers:
   - {t: '$$mdi:apple-keyboard-caps$$', h: L-2}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: Ctl+A}
-  - {t: S, h: L-1}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: L-1}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - {t: G, h: L-2}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: H, h: L-2}
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: L-1}
+  - {t: K, h: L-1}
+  - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: ;}
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -94,15 +94,15 @@ layers:
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: HOME, type: held}
-  - PG DN
+  - HOME
+  - {t: PG DN, type: held}
   - PG UP
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
-  - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
-  - {t: '$$mdi:arrow-right-bold$$', h: END, type: held alternate}
+  - {t: '$$mdi:arrow-up-bold$$', h: PG UP, type: held alternate}
+  - {t: '$$mdi:arrow-right-bold$$', h: END}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
