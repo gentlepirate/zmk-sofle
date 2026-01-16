@@ -346,7 +346,7 @@
         cv_enter: ca_cv_enter {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RC(X) &kp ENTER>;
+            bindings = <&kp RC(V) &kp ENTER>;
             label = "CA_CV_ENTER";
         };
     };
