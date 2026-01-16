@@ -93,11 +93,11 @@ layers:
   - {t: '0', s: )}
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - HOME
-  - {t: PG DN, type: held}
-  - PG UP
+  - PG DN
+  - {t: PG UP, type: held}
   - END
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
