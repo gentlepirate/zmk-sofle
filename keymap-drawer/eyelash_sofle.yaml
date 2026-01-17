@@ -26,7 +26,7 @@ layers:
   - {t: I, h: '8'}
   - {t: O, h: '9'}
   - {t: P, h: '0'}
-  - {t: '''', h: L-2, s: '"'}
+  - {t: '$$mdi:backspace$$', h: L-2}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: L-2}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
@@ -38,8 +38,8 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: L-1}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace$$', h: L-2}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: ;, h: L-2, s: ':'}
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
