@@ -133,7 +133,7 @@ layers:
   L-2:
   - {t: LAYER0, h: toggle}
   - '&mkp MB1'
-  - '&mkp MB2'
+  - {t: '&mkp MB2', h: '&mkp MB3'}
   - '&mkp MB5'
   - '&mkp MB3'
   - $$mdi:progress-download$$
