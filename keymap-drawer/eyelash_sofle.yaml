@@ -172,10 +172,10 @@ layers:
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
-  - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
-  - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
-  - {t: '$$mdi:arrow-right-bold$$', h: END}
+  - {t: 'Ctl+$$mdi:arrow-left-bold$$', h: HOME}
+  - {t: 'Ctl+$$mdi:arrow-down-bold$$', h: PG DN}
+  - {t: 'Ctl+$$mdi:arrow-up-bold$$', h: PG UP}
+  - {t: 'Ctl+$$mdi:arrow-right-bold$$', h: END}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
