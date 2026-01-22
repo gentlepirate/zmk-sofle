@@ -320,6 +320,12 @@
             timeout-ms = <150>;
             require-prior-idle-ms = <700>;
         };
+
+        Caps1 {
+            bindings = <&kp CAPS>;
+            key-positions = <16 22>;
+            timeout-ms = <300>;
+        };
     };
 
     macros {
