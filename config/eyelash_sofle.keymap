@@ -313,6 +313,11 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
+
+        Caps {
+            bindings = <&kp CAPS>;
+            key-positions = <29 35>;
+        };
     };
 
     macros {
