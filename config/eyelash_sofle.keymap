@@ -317,7 +317,7 @@
         Caps {
             bindings = <&kp CAPS>;
             key-positions = <29 35>;
-            timeout-ms = <250>;
+            timeout-ms = <300>;
             require-prior-idle-ms = <700>;
         };
 
