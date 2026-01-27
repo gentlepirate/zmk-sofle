@@ -94,10 +94,10 @@ layers:
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-caps$$
   - {t: '`', s: '~'}
-  - HOME
-  - {t: PG DN, type: held}
-  - PG UP
-  - END
+  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
+  - {t: '$$mdi:arrow-down-bold$$', h: PG DN, type: held}
+  - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
+  - {t: '$$mdi:arrow-right-bold$$', h: END}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
@@ -164,10 +164,10 @@ layers:
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
   - {t: '$$mdi:arrow-right-bold$$', h: END}
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
-  - PG DN
-  - PG UP
-  - END
+  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
+  - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
+  - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
+  - {t: '$$mdi:arrow-right-bold$$', h: END}
   - {t: _, type: held alternate}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
