@@ -159,10 +159,10 @@ layers:
   - '~'
   - '&mkp MB3'
   - {t: '~', type: held}
-  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
-  - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
-  - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
-  - {t: '$$mdi:arrow-right-bold$$', h: END}
+  - {t: HOME, h: '$$mdi:arrow-left-bold$$'}
+  - {t: PG DN, h: '$$mdi:arrow-down-bold$$'}
+  - {t: PG UP, h: '$$mdi:arrow-up-bold$$'}
+  - {t: END, h: '$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
