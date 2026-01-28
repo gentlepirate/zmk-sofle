@@ -1,19 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - {t: F1, h: '&mkp MB1', s: '1'}
-  - {t: F2, h: '&mkp MB2', s: '2'}
-  - {t: F3, h: '&mkp MB3', s: '3'}
-  - {t: F4, s: '4'}
-  - {t: F5, s: '5'}
-  - {t: F6, s: '6'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: F7, s: '7'}
-  - {t: F8, s: '8'}
-  - {t: F9, s: '9'}
-  - {t: F10, s: '0'}
-  - {t: F11, s: '-'}
-  - {t: F12, s: '='}
   - {t: '$$mdi:keyboard-tab$$', h: L-1}
   - {t: Q, h: '1'}
   - {t: W, h: '2'}
@@ -41,7 +28,7 @@ layers:
   - {t: ;, h: L-2, s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Z, h: Ctl+Z}
+  - {t: Z, h: L-2}
   - {t: X, h: Ctl+X}
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
@@ -53,6 +40,19 @@ layers:
   - {t: ., s: '>'}
   - {t: /, h: Ctl+/, s: '?'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F1, h: '&mkp MB1', s: '1'}
+  - {t: F2, h: '&mkp MB2', s: '2'}
+  - {t: F3, h: '&mkp MB3', s: '3'}
+  - {t: F4, s: '4'}
+  - {t: F5, s: '5'}
+  - {t: F6, s: '6'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: F7, s: '7'}
+  - {t: F8, s: '8'}
+  - {t: F9, s: '9'}
+  - {t: F10, s: '0'}
+  - {t: F11, s: '-'}
+  - {t: F12, s: '='}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-caps$$'}
   - {t: ']', h: '$$mdi:apple-keyboard-command$$', s: '}'}
@@ -66,19 +66,6 @@ layers:
   - {t: '=', s: +}
   - {t: L-3, h: \}
   L-1:
-  - {t: LAYER0, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -118,6 +105,19 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: LAYER0, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -131,19 +131,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - D
   L-2:
-  - {t: LAYER0, h: toggle}
-  - '&mkp MB1'
-  - {t: '&mkp MB2', h: '&mkp MB3'}
-  - '&mkp MB5'
-  - '&mkp MB3'
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
   - '!'
   - '@'
@@ -171,11 +158,24 @@ layers:
   - {t: _, type: held alternate}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: 'Ctl+$$mdi:arrow-left-bold$$', h: HOME}
   - {t: 'Ctl+$$mdi:arrow-down-bold$$', h: PG DN}
   - {t: 'Ctl+$$mdi:arrow-up-bold$$', h: PG UP}
   - {t: 'Ctl+$$mdi:arrow-right-bold$$', h: END}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: LAYER0, h: toggle}
+  - '&mkp MB1'
+  - {t: '&mkp MB2', h: '&mkp MB3'}
+  - '&mkp MB5'
+  - '&mkp MB3'
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
