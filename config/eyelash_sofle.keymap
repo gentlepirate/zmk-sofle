@@ -385,7 +385,7 @@
         L1 {
             bindings = <
 &trans    &kp N1     &kp N2              &kp N3               &kp N4             &kp N5                &trans  &kp N6              &kp N7               &kp N8             &kp N9              &kp N0     &kp GRAVE
-&kp CAPS  &kp GRAVE  &mt_main HOME LEFT  &mt_main PG_DN DOWN  &mt_main PG_UP UP  &mt_main END RIGHT    &trans  &mt_main LEFT HOME  &mt_main DOWN PG_DN  &mt_main UP PG_UP  &mt_main RIGHT END  &kp MINUS  &kp EQUAL
+&kp CAPS  &kp GRAVE  &mt_main HOME LEFT  &mt_main PG_DN DOWN  &mt_main PG_UP UP  &mt_main END RIGHT    &trans  &mt_main HOME LEFT  &mt_main PG_DN DOWN  &mt_main PG_UP UP  &mt_main END RIGHT  &kp MINUS  &kp EQUAL
 &trans    &trans     &ca_cx              &ca_cc               &ca_cv             &cv_enter             &trans  &trans              &trans               &trans             &trans              &trans     &trans
 &to 0     &trans     &trans              &trans               &trans             &trans                &trans  &trans              &trans               &trans             &trans              &trans     &trans
 &trans    &trans     &trans              &trans               &kp BACKSPACE      &kp DEL               &trans  &trans              &trans               &trans             &trans              &kp D
