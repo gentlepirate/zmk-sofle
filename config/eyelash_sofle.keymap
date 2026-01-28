@@ -372,10 +372,10 @@
 
         layer0 {
             bindings = <
-&mMB1_F1             &mMB2_F2           &mMB3_F3                &mF4                    &mF5              &mF6                   &none  &mF7                  &mF8              &mF9                 &mF10             &mF11               &mF12
 &to_kp_slow 1 TAB    &mt_main N1 Q      &mt_main N2 W           &mt_main N3 E           &mt_main N4 R     &mt_main N5 T          &none  &mt_main N6 Y         &mt_main N7 U     &mt_main N8 I        &mt_main N9 O     &mt_main N0 P       &to_kp_slow 2 BACKSPACE
 &mt_slow LCTRL ESC   &lt_main 2 A       &mt_main LSHFT S        &lt_main 1 D            &mt_main LCTRL F  &mt_main LALT G        &none  &mt_main RIGHT_ALT H  &mt_main RCTRL J  &lt_main 1 K         &mt_main RSHFT L  &lt_main 2 SEMI     &mt RCTRL SQT
 &mt LSHFT BACKSPACE  &lt_main 2 Z       &mt_main LC(X) X        &mt_main LC(C) C        &mt_main LC(V) V  &mkp_kp_main LCLK B    &none  &kp N                 &kp M             &kp COMMA            &kp DOT           &mt RC(FSLH) FSLH   &mt_slow RSHFT DEL
+&mMB1_F1             &mMB2_F2           &mMB3_F3                &mF4                    &mF5              &mF6                   &none  &mF7                  &mF8              &mF9                 &mF10             &mF11               &mF12
 &none                &mt_slow CAPS DEL  &mt_slow LEFT_GUI RBKT  &mt_slow LEFT_ALT LBKT  &lt_slow 1 ENTER  &lt_slow 2 SPACE       &none  &mt_slow ENTER RSHFT  &lt_slow 1 SPACE  &mt RIGHT_ALT MINUS  &kp EQUAL         &kp_to_slow BSLH 3
             >;
 
@@ -384,10 +384,10 @@
 
         L1 {
             bindings = <
-&to 0     &trans     &trans              &trans               &trans             &trans                &trans  &trans              &trans               &trans             &trans              &trans     &trans
 &trans    &kp N1     &kp N2              &kp N3               &kp N4             &kp N5                &trans  &kp N6              &kp N7               &kp N8             &kp N9              &kp N0     &kp GRAVE
 &kp CAPS  &kp GRAVE  &mt_main HOME LEFT  &mt_main PG_DN DOWN  &mt_main PG_UP UP  &mt_main END RIGHT    &trans  &mt_main LEFT HOME  &mt_main DOWN PG_DN  &mt_main UP PG_UP  &mt_main RIGHT END  &kp MINUS  &kp EQUAL
 &trans    &trans     &ca_cx              &ca_cc               &ca_cv             &cv_enter             &trans  &trans              &trans               &trans             &trans              &trans     &trans
+&to 0     &trans     &trans              &trans               &trans             &trans                &trans  &trans              &trans               &trans             &trans              &trans     &trans
 &trans    &trans     &trans              &trans               &kp BACKSPACE      &kp DEL               &trans  &trans              &trans               &trans             &trans              &kp D
             >;
 
@@ -397,10 +397,10 @@
 
         L2 {
             bindings = <
-&to 0     &mkp MB1   &mkp_mkp_quick MB3 MB2  &mkp MB5                 &mkp MB3               &bootloader               &trans  &trans              &trans               &trans             &trans              &trans     &trans
 &mkp MB4  &kp EXCL   &kp AT                  &kp HASH                 &kp DLLR               &kp PRCNT                 &trans  &kp CARET           &kp AMPS             &kp STAR           &kp LPAR            &kp RPAR   &kp TILDE
 &mkp MB3  &kp TILDE  &mt_main LEFT HOME      &mt_main DOWN PG_DN      &mt_main UP PG_UP      &mt_main RIGHT END        &trans  &mt_main HOME LEFT  &mt_main PG_DN DOWN  &mt_main PG_UP UP  &mt_main END RIGHT  &kp UNDER  &kp PLUS
 &trans    &trans     &mt_main HOME LC(LEFT)  &mt_main PG_DN LC(DOWN)  &mt_main PG_UP LC(UP)  &mt_main END LC(RIGHT)    &trans  &trans              &trans               &trans             &trans              &trans     &trans
+&to 0     &mkp MB1   &mkp_mkp_quick MB3 MB2  &mkp MB5                 &mkp MB3               &bootloader               &trans  &trans              &trans               &trans             &trans              &trans     &trans
 &trans    &trans     &trans                  &trans                   &kp LC(BACKSPACE)      &kp LC(DEL)               &trans  &trans              &trans               &trans             &trans              &trans
             >;
 
