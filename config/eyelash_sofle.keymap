@@ -373,8 +373,8 @@
         layer0 {
             bindings = <
 &mMB1_F1             &mMB2_F2           &mMB3_F3          &mF4                     &mF5              &mF6                   &none  &mF7                  &mF8              &mF9                &mF10             &mF11               &mF12
-&to_kp_slow 1 TAB    &mt_main N1 Q      &mt_main N2 W     &mt_main N3 E            &mt_main N4 R     &mt_main N5 T          &none  &mt_main N6 Y         &mt_main N7 U     &mt_main N8 I       &mt_main N9 O     &mt_main N0 P       &to_kp_slow 2 BACKSPACE
-&mt_slow LCTRL ESC   &lt_main 2 A       &mt_main LSHFT S  &lt_main 1 D             &mt_main LCTRL F  &mt_main LALT G        &none  &mt_main RIGHT_ALT H  &mt_main RCTRL J  &lt_main 1 K        &mt_main RSHFT L  &lt_main 2 SEMI     &mt RCTRL SQT
+&to_kp_slow 1 TAB    &mt_main N1 Q      &mt_main N2 W     &mt_main N3 E            &mt_main N4 R     &mt_main N5 T          &none  &mt_main N6 Y         &mt_main N7 U     &mt_main N8 I       &mt_main N9 O     &mt_main N0 P       &to_kp_slow 2 SQT
+&mt_slow LCTRL ESC   &lt_main 2 A       &mt_main LSHFT S  &lt_main 1 D             &mt_main LCTRL F  &mt_main LALT G        &none  &mt_main RIGHT_ALT H  &mt_main RCTRL J  &lt_main 1 K        &mt_main RSHFT L  &lt_main 2 BACKSPACE     &mt RCTRL SEMI
 &mt LSHFT BACKSPACE  &lt_main 2 Z       &mt_main LC(X) X  &mt_main LC(C) C         &mt_main LC(V) V  &mkp_kp_main LCLK B    &none  &kp N                 &kp M             &kp COMMA           &kp DOT           &mt RC(FSLH) FSLH   &mt_slow RSHFT DEL
 &none                &mt_slow CAPS DEL  &kp LEFT_GUI      &lt_slow 1 ENTER  &mt_slow LEFT_ALT MINUS  &lt_slow 2 SPACE       &none  &mt_slow ENTER RSHFT  &mt RIGHT_ALT LBKT  &lt_slow 1 SPACE  &kp RBKT          &kp_to_slow BSLH 3
             >;
