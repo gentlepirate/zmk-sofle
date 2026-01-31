@@ -212,7 +212,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             flavor = "balanced";
         };
 
@@ -392,7 +392,7 @@
             bindings = <
 &to 0     &mkp MB1   &mkp_mkp_quick MB3 MB2  &mkp MB5                 &mkp MB3               &bootloader               &trans  &trans              &trans               &trans             &trans              &trans     &trans
 &mkp MB4  &kp EXCL   &kp AT                  &kp HASH                 &kp DLLR               &kp PRCNT                 &trans  &kp CARET           &kp AMPS             &kp STAR           &kp LPAR            &kp RPAR   &kp TILDE
-&mkp MB3  &kp TILDE  &mt_main HOME LEFT      &mt_main PG_DN DOWN      &mt_main PG_UP UP      &mt_main END RIGHT        &trans   &mt_main LEFT HOME  &mt_main DOWN PG_DN  &mt_main UP PG_UP  &mt_main RIGHT END    &kp UNDER  &kp PLUS
+&mkp MB3  &kp TILDE  &mt_main HOME LEFT      &mt_main PG_DN DOWN      &mt_main PG_UP UP      &mt_main END RIGHT        &trans  &mt_main LEFT HOME  &mt_main DOWN PG_DN  &mt_main UP PG_UP  &mt_main RIGHT END  &kp UNDER  &kp PLUS
 &trans    &trans     &mt_main HOME LC(LEFT)  &mt_main PG_DN LC(DOWN)  &mt_main PG_UP LC(UP)  &mt_main END LC(RIGHT)    &trans  &trans              &trans               &trans             &trans              &trans     &trans
 &trans    &trans     &trans                  &trans                   &trans                 &kp LC(BACKSPACE)         &trans  &trans              &trans               &trans             &trans              &trans
             >;
