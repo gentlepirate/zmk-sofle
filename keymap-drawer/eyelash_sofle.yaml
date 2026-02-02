@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: L-2}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: L-2}
   - {t: X, h: Ctl+X}
   - {t: C, h: Ctl+C}
