@@ -91,7 +91,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
   - {t: '`', s: '~'}
   - {t: HOME, h: '$$mdi:arrow-left-bold$$'}
@@ -129,7 +129,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - D
+  - {t: '$$mdi:transfer$$', type: trans}
   L-2:
   - {t: LAYER0, h: toggle}
   - '&mkp MB1'
@@ -156,7 +156,7 @@ layers:
   - '*'
   - (
   - )
-  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB3'
   - {t: '~', type: held}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
