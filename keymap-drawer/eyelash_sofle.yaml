@@ -28,27 +28,27 @@ layers:
   - {t: P, h: '0'}
   - {t: '''', h: L-2, s: '"'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: A, h: L-2}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - '&mt_main LCTRL 1 D'
-  - '&lt_main F'
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: L-1}
   - {t: G, h: L-2}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: H, h: L-2}
   - {t: J, h: L-1}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:backspace$$', h: L-2}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: L-2}
   - {t: X, h: Ctl+X}
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
-  - {t: B, h: '$$mdi:mouse-left-click-outline$$'}
+  - {t: B, h: '$$mdi:keyboard-return$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - N
-  - M
+  - {t: N, h: '$$mdi:keyboard-return$$'}
+  - {t: M, h: '$$mdi:keyboard-space$$'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: Ctl+/, s: '?'}
@@ -96,11 +96,11 @@ layers:
   - {t: '`', s: '~'}
   - {t: HOME, h: '$$mdi:arrow-left-bold$$'}
   - {t: PG DN, h: '$$mdi:arrow-down-bold$$'}
-  - {t: PG UP, h: '$$mdi:arrow-up-bold$$'}
+  - {t: PG UP, h: '$$mdi:arrow-up-bold$$', type: held}
   - {t: END, h: '$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
-  - {t: '$$mdi:arrow-down-bold$$', h: PG DN, type: held}
+  - {t: '$$mdi:arrow-down-bold$$', h: PG DN, type: held alternate}
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
   - {t: '$$mdi:arrow-right-bold$$', h: END}
   - {t: '-', s: _}
@@ -158,17 +158,17 @@ layers:
   - )
   - '~'
   - '&mkp MB3'
-  - '~'
+  - {t: '~', type: held}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
-  - {t: '$$mdi:arrow-right-bold$$', h: END, type: held}
+  - {t: '$$mdi:arrow-right-bold$$', h: END, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: HOME, h: '$$mdi:arrow-left-bold$$', type: held alternate}
   - {t: PG DN, h: '$$mdi:arrow-down-bold$$'}
   - {t: PG UP, h: '$$mdi:arrow-up-bold$$'}
   - {t: END, h: '$$mdi:arrow-right-bold$$'}
-  - _
+  - {t: _, type: held alternate}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
