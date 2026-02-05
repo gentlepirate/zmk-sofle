@@ -51,7 +51,7 @@ layers:
   - {t: M, h: '$$mdi:keyboard-return$$'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: Ctl+/, s: '?'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-caps$$
