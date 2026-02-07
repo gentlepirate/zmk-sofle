@@ -30,13 +30,13 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: L-2}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: D, h: L-2}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: L-1}
-  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: G, h: L-2}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: H, h: L-2}
   - {t: J, h: L-1}
-  - {t: K, h: L-2}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: L-2}
   - {t: '$$mdi:keyboard-space$$', h: ;}
@@ -160,13 +160,13 @@ layers:
   - {t: LAYER0, h: toggle}
   - {t: '~', type: held}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
-  - {t: '$$mdi:arrow-down-bold$$', h: PG DN, type: held alternate}
+  - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
-  - {t: '$$mdi:arrow-right-bold$$', h: END}
+  - {t: '$$mdi:arrow-right-bold$$', h: END, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: HOME, h: '$$mdi:arrow-left-bold$$'}
+  - {t: HOME, h: '$$mdi:arrow-left-bold$$', type: held alternate}
   - {t: PG DN, h: '$$mdi:arrow-down-bold$$'}
-  - {t: PG UP, h: '$$mdi:arrow-up-bold$$', type: held alternate}
+  - {t: PG UP, h: '$$mdi:arrow-up-bold$$'}
   - {t: END, h: '$$mdi:arrow-right-bold$$'}
   - {t: _, type: held alternate}
   - +
