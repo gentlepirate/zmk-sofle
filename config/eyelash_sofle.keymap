@@ -315,6 +315,15 @@
             tapping-term-ms = <200>;
         };
 
+        kp_mF4: kp_mF4 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_MF4";
+            bindings = <&mF4>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
         kp_mF9: kp_mF9 {
             compatible = "zmk,behavior-hold-tap";
             label = "KP_MF9";
