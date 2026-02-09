@@ -10,7 +10,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: F7, s: '7'}
   - {t: F8, s: '8'}
-  - {t: F9, s: '9'}
+  - {t: '$$mdi:keyboard-space$$', h: F9}
   - {t: F10, s: '0'}
   - {t: F11, s: '-'}
   - {t: F12, s: '='}
