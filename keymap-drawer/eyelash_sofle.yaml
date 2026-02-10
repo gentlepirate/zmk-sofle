@@ -3,8 +3,8 @@ layers:
   LAYER0:
   - {t: F1, h: '&mkp MB1', s: '1'}
   - {t: F2, h: '&mkp MB2', s: '2'}
-  - {t: '$$mdi:keyboard-space$$', h: F3}
-  - {t: '$$mdi:keyboard-return$$', h: F4}
+  - {t: '$$mdi:keyboard-return$$', h: F3}
+  - {t: '$$mdi:keyboard-space$$', h: F4}
   - {t: F5, s: '5'}
   - {t: F6, s: '6'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
