@@ -39,7 +39,7 @@ layers:
   - {t: K, h: L-1}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: L-2}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Z, h: L-2}
   - {t: X, h: Ctl+X}
@@ -51,7 +51,7 @@ layers:
   - {t: M, h: '$$mdi:keyboard-space$$'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: /, h: ;, s: '?'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: \}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: L-1}
   - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
   - {t: ']', s: '}'}
-  - {t: L-3, h: \}
+  - {t: ;, h: L-3, s: ':'}
   L-1:
   - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -103,7 +103,7 @@ layers:
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP, type: held alternate}
   - {t: '$$mdi:arrow-right-bold$$', h: END}
-  - {t: '-', s: _}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -259,7 +259,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   layer1:
   - {t: '`', s: '~'}
   - F1
