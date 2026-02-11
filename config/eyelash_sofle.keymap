@@ -423,7 +423,7 @@
             bindings = <
 &mMB1_F1             &mMB2_F2       &kp_mF3 0 ENTER   &kp_mF4 0 SPACE        &mF5              &mF6                &none  &mF7              &mF8              &kp_mF9 0 SPACE     &kp_mF10 0 ENTER  &mF11                 &mF12
 &to_kp_slow 1 TAB    &mt_main N1 Q  &mt_main N2 W     &mt_slow N3 E          &mt_main N4 R     &mt_main N5 T       &none  &mt_main N6 Y     &mt_main N7 U     &mt_slow N8 I       &mt_slow N9 O     &mt_main N0 P         &to_kp_slow 2 SQT
-&mt_slow LCTRL ESC   &lt_main 2 A   &mt_main LSHFT S  &lt_main 1 D           &mt_main LCTRL F  &lt_main 2 G        &none  &lt_main 2 H      &mt_main LCTRL J  &lt_main 1 K        &mt_main RSHFT L  &lt_main 2 BACKSPACE  &mt_main RCTRL MINUS
+&mt_slow LCTRL ESC   &lt_main 2 A   &mt_main LSHFT S  &lt_main 1 D           &mt_main LCTRL F  &lt_main 2 G        &none  &lt_main 2 H      &mt_main LCTRL J  &lt_main 1 K        &mt_main RSHFT L  &lt_main 2 BACKSPACE  &mt_main EQUAL MINUS
 &mt_main LSHFT CAPS  &lt_main 2 Z   &mt_fast LC(X) X  &mt_main LC(C) C       &mt_fast LC(V) V  &mt_fast ENTER B    &none  &mt_fast ENTER N  &mt_fast SPACE M  &kp COMMA           &kp DOT           &mt_main SEMI FSLH    &mt_slow BSLH DEL
 &none                &kp LSHFT      &kp LEFT_GUI      &mt_slow LEFT_ALT DEL  &lt_slow 1 ENTER  &lt_slow 2 SPACE    &none  &mt ENTER RSHFT   &lt_slow 1 SPACE  &mt RIGHT_ALT LBKT  &kp RBKT          &lt_main 3 SEMI
             >;
