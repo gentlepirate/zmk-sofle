@@ -104,7 +104,7 @@ layers:
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP, type: held alternate}
   - {t: '$$mdi:arrow-right-bold$$', h: END}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&ca_cx'
@@ -168,8 +168,8 @@ layers:
   - {t: PG DN, h: '$$mdi:arrow-down-bold$$'}
   - {t: PG UP, h: '$$mdi:arrow-up-bold$$'}
   - {t: END, h: '$$mdi:arrow-right-bold$$'}
-  - {t: _, type: held alternate}
-  - +
+  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: 'Ctl+$$mdi:arrow-left-bold$$', h: HOME}
