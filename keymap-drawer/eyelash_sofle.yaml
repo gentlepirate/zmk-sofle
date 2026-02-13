@@ -91,7 +91,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: LAYER0, h: toggle}
   - {t: '`', s: '~'}
   - {t: HOME, h: '$$mdi:arrow-left-bold$$'}
