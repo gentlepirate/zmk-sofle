@@ -48,7 +48,7 @@ layers:
   - {t: B, h: '$$mdi:keyboard-return$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: N, h: '$$mdi:keyboard-return$$'}
-  - M
+  - {t: M, h: '`'}
   - {t: ',', h: '$$mdi:keyboard-return$$', s: <}
   - {t: ., h: '$$mdi:keyboard-space$$', s: '>'}
   - {t: /, h: ;, s: '?'}
