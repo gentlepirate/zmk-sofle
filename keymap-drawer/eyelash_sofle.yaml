@@ -57,10 +57,10 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-return$$', h: L-2}
-  - {t: '$$mdi:keyboard-space$$', h: L-1}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Backspace, h: L-2}
   - {t: '$$mdi:keyboard-return$$', h: L-1}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-space$$', h: L-1}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
