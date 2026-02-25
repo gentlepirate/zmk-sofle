@@ -50,7 +50,7 @@ layers:
   - {t: N, h: '$$mdi:keyboard-return$$'}
   - {t: M, h: '`'}
   - {t: ',', h: '$$mdi:keyboard-return$$', s: <}
-  - {t: ., h: '$$mdi:keyboard-space$$', s: '>'}
+  - {t: ., s: '>'}
   - {t: /, h: ;, s: '?'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: \}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
