@@ -50,18 +50,18 @@ layers:
   - {t: N, h: '$$mdi:keyboard-return$$'}
   - {t: M, h: '`'}
   - {t: ',', h: '$$mdi:keyboard-return$$', s: <}
-  - {t: ., h: '$$mdi:keyboard-space$$', s: '>'}
+  - {t: ., s: '>'}
   - {t: /, h: ;, s: '?'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: \}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:backspace$$', h: L-2}
   - {t: '$$mdi:keyboard-return$$', h: L-1}
+  - {t: '$$mdi:backspace$$', h: L-2}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', h: L-1}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
+  - {t: '$$mdi:keyboard-space$$', h: L-1}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
   - {t: '$$mdi:arrow-right-bold$$', h: END}
@@ -122,11 +122,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -187,8 +187,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
