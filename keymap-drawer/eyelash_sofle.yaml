@@ -38,7 +38,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: L-1}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace$$', h: L-2}
+  - {t: ;, h: L-2, s: ':'}
   - {t: '-', h: '=', s: _}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Z, h: L-2}
@@ -51,7 +51,7 @@ layers:
   - {t: M, h: '`'}
   - {t: ',', h: '[', s: <}
   - {t: ., h: ']', s: '>'}
-  - {t: /, h: ;, s: '?'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: \}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
