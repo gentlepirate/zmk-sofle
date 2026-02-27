@@ -9,9 +9,9 @@ layers:
   - {t: F6, s: '6'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', h: F7, s: '{'}
-  - {t: F8, s: '8'}
-  - {t: ']', h: F9, s: '}'}
-  - {t: F10, s: '0'}
+  - {t: F8, h: ']', s: '8'}
+  - {t: '$$mdi:keyboard-space$$', h: F9}
+  - {t: F10, h: '$$mdi:keyboard-return$$', s: '0'}
   - {t: F11, s: '-'}
   - {t: F12, s: '='}
   - {t: '$$mdi:keyboard-tab$$', h: L-1}
