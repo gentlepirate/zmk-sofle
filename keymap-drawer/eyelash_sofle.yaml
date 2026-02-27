@@ -12,8 +12,8 @@ layers:
   - {t: F8, h: ']', s: '8'}
   - {t: '$$mdi:keyboard-space$$', h: F9}
   - {t: F10, h: '$$mdi:keyboard-return$$', s: '0'}
-  - {t: F11, s: '-'}
-  - {t: F12, s: '='}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: F11}
+  - {t: '$$mdi:backspace$$', h: F12}
   - {t: '$$mdi:keyboard-tab$$', h: L-1}
   - {t: Q, h: '1'}
   - {t: W, h: '2'}
