@@ -543,6 +543,15 @@
             tapping-term-ms = <200>;
             flavor = "balanced";
         };
+
+        mF6_enter: mF6_enter {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MF6_ENTER";
+            #binding-cells = <0>;
+            bindings = <&mF6>, <&kp ENTER>;
+
+            tapping-term-ms = <200>;
+        };
     };
 
     combos {
@@ -604,7 +613,7 @@
 
         layer0 {
             bindings = <
-&kp_mF1 0 BACKSPACE  &kp_mF2 0 DEL  &kp_mF3 0 SPACE   &kp_mF4 0 ENTER   &mF5              &mF6                &none  &kp_mF7 0 ENTER   &mF8_kp SPACE 0     &kp_mF9 0 LBKT       &mF10_kp RBKT 0    &kp_mF11 0 DEL      &kp_mF12 0 BACKSPACE
+&kp_mF1 0 BACKSPACE  &kp_mF2 0 DEL  &kp_mF3 0 SPACE   &kp_mF4 0 ENTER   &mF5              &mF6_enter          &none  &kp_mF7 0 ENTER   &mF8_kp SPACE 0     &kp_mF9 0 LBKT       &mF10_kp RBKT 0    &kp_mF11 0 DEL      &kp_mF12 0 BACKSPACE
 &to_kp_slow 1 TAB    &mt_main N1 Q  &mt_main N2 W     &mt_slow N3 E     &mt_main N4 R     &mt_main N5 T       &none  &mt_main N6 Y     &mt_main N7 U       &mt_slow N8 I        &mt_slow N9 O      &mt_main N0 P       &to_kp_slow 2 SQT
 &mt_slow LCTRL ESC   &lt_main 2 A   &mt_main LSHFT S  &lt_main 1 D      &mt_main LCTRL F  &lt_main 2 G        &none  &lt_main 2 H      &mt_main LCTRL J    &lt_main 1 K         &mt_main RSHFT L   &lt_main 2 SEMI     &mt_fast EQUAL MINUS
 &mt_main LSHFT CAPS  &lt_main 2 Z   &mt_main LC(X) X  &mt_main LC(C) C  &mt_fast LC(V) V  &mt_fast SPACE B    &none  &mt_fast ENTER N  &mt_main GRAVE M    &kp COMMA            &kp DOT            &kp FSLH            &mt_main DEL BSLH
