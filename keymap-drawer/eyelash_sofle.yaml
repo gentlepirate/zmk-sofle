@@ -9,7 +9,7 @@ layers:
   - '&mF6_enter'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: F7}
-  - {t: F8, h: '$$mdi:keyboard-space$$', s: '8'}
+  - {t: F8, h: ']', s: '8'}
   - {t: '$$mdi:keyboard-space$$', h: F9}
   - {t: F10, h: '$$mdi:keyboard-return$$', s: '0'}
   - {t: '[', h: F11, s: '{'}
