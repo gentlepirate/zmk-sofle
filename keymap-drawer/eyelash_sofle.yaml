@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: L-1}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', h: L-1}
+  - {t: '$$mdi:keyboard-space$$', h: L-2}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,11 +190,11 @@ layers:
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
+  - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
+  - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
+  - {t: '$$mdi:arrow-right-bold$$', h: END}
   L-3:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
