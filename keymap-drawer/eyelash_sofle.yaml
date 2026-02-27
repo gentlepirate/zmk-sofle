@@ -52,7 +52,7 @@ layers:
   - {t: ',', h: '[', s: <}
   - {t: ., h: ']', s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: \}
+  - {t: \, h: '$$mdi:backspace-reverse-outline$$', s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-command$$
