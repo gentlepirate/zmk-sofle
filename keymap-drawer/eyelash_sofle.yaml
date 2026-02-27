@@ -2,7 +2,7 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
   - {t: F1, h: '&mkp MB1', s: '1'}
-  - {t: F2, h: '&mkp MB2', s: '2'}
+  - {t: '$$mdi:keyboard-return$$', h: F2}
   - {t: '$$mdi:backspace-reverse-outline$$', h: F3}
   - {t: '$$mdi:backspace$$', h: F4}
   - {t: F5, s: '5'}
@@ -45,7 +45,7 @@ layers:
   - {t: X, h: Ctl+X}
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
-  - {t: B, h: '$$mdi:keyboard-return$$'}
+  - {t: B, h: '$$mdi:keyboard-space$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: N, h: '$$mdi:keyboard-return$$'}
   - {t: M, h: '`'}
