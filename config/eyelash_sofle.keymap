@@ -51,15 +51,15 @@
             tap-ms = <100>;
         };
 
-        MF_BEHAVIOR(1);
-        MF_BEHAVIOR(2);
-        MF_BEHAVIOR(3);
-        MF_BEHAVIOR(4);
-        MF_BEHAVIOR(5);
-        MF_BEHAVIOR(6);
-        MF_BEHAVIOR(7);
-        MF_BEHAVIOR(8);
-        MF_BEHAVIOR(9);
+        MF_BEHAVIOR(1)
+        MF_BEHAVIOR(2)
+        MF_BEHAVIOR(3)
+        MF_BEHAVIOR(4)
+        MF_BEHAVIOR(5)
+        MF_BEHAVIOR(6)
+        MF_BEHAVIOR(7)
+        MF_BEHAVIOR(8)
+        MF_BEHAVIOR(9)
 
         mF10: mF10 {
             compatible = "zmk,behavior-mod-morph";
