@@ -608,7 +608,7 @@
 &to_kp_slow 1 TAB    &mt_main N1 Q    &mt_main N2 W     &mt_slow N3 E        &mt_main N4 R     &mt_main N5 T       &none  &mt_main N6 Y       &mt_main N7 U     &mt_slow N8 I        &mt_slow N9 O      &mt_main N0 P       &to_kp_slow 2 SQT
 &mt_slow LCTRL ESC   &lt_main 2 A     &mt_main LSHFT S  &lt_main 1 D         &mt_main LCTRL F  &lt_main 2 G        &none  &lt_main 2 H        &mt_main LCTRL J  &lt_main 1 K         &mt_main RSHFT L   &lt_main 2 SEMI     &mt_fast EQUAL MINUS
 &mt_main LSHFT CAPS  &lt_main 2 Z     &mt_main LC(X) X  &mt_main LC(C) C     &mt_fast LC(V) V  &mt_fast SPACE B    &none  &mt_fast ENTER N    &mt_main GRAVE M  &mt_main LBKT COMMA  &mt_main RBKT DOT  &kp FSLH            &mt_fast DEL BSLH
-&none                &kp DEL          &kp LEFT_GUI      &kp BACKSPACE        &lt_slow 1 ENTER  &kp LALT            &none  &lt_slow 1 SPACE    &mt_main HOME LEFT  &mt_main PG_DN DOWN  &mt_main PG_UP UP  &mt_main END RIGHT
+&none                &kp DEL          &kp LEFT_GUI      &kp BACKSPACE        &lt_slow 1 ENTER  &kp LALT            &none  &lt_slow 2 SPACE    &mt_main HOME LEFT  &mt_main PG_DN DOWN  &mt_main PG_UP UP  &mt_main END RIGHT
             >;
 
             display-name = "LAYER0";
@@ -633,7 +633,7 @@
 &mkp MB4  &kp EXCL   &kp AT                  &kp HASH                 &kp DLLR               &kp PRCNT                 &trans  &kp CARET           &kp AMPS             &kp STAR           &kp LPAR            &kp RPAR  &trans
 &to 0     &kp TILDE  &mt_main HOME LEFT      &mt_main PG_DN DOWN      &mt_main PG_UP UP      &mt_main END RIGHT        &trans  &mt_main LEFT HOME  &mt_main DOWN PG_DN  &mt_main UP PG_UP  &mt_main RIGHT END  &trans    &trans
 &trans    &trans     &mt_main HOME LC(LEFT)  &mt_main PG_DN LC(DOWN)  &mt_main PG_UP LC(UP)  &mt_main END LC(RIGHT)    &trans  &trans              &trans               &trans             &trans              &trans    &trans
-&trans    &trans     &trans                  &trans                   &kp LC(BACKSPACE)      &trans                    &trans  &trans              &trans               &trans             &trans              &trans
+&trans    &trans     &trans                  &trans                   &kp LC(BACKSPACE)      &trans                    &trans  &trans              &mt_main HOME LEFT   &mt_main PG_DN DOWN  &mt_main PG_UP UP  &mt_main END RIGHT
             >;
 
             display-name = "L-2";
