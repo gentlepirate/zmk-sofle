@@ -315,6 +315,24 @@
             tapping-term-ms = <200>;
         };
 
+        kp_mF1: kp_mF1 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_MF1";
+            bindings = <&mF1>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        kp_mF2: kp_mF2 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_MF2";
+            bindings = <&mF2>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
         kp_mF3: kp_mF3 {
             compatible = "zmk,behavior-hold-tap";
             label = "KP_MF3";
@@ -337,6 +355,15 @@
             compatible = "zmk,behavior-hold-tap";
             label = "KP_MF5";
             bindings = <&mF5>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        kp_mF6: kp_mF6 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_MF6";
+            bindings = <&mF6>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -379,6 +406,94 @@
             flavor = "balanced";
         };
 
+        kp_mF11: kp_mF11 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_MF11";
+            bindings = <&mF11>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        kp_mF12: kp_mF12 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_MF12";
+            bindings = <&mF12>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        mF1_kp: mF1_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MF1_KP";
+            bindings = <&kp>, <&mF1>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
+        mF2_kp: mF2_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MF2_KP";
+            bindings = <&kp>, <&mF2>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
+        mF3_kp: mF3_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MF3_KP";
+            bindings = <&kp>, <&mF3>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
+        mF4_kp: mF4_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MF4_KP";
+            bindings = <&kp>, <&mF4>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
+        mF5_kp: mF5_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MF5_KP";
+            bindings = <&kp>, <&mF5>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
+        mF6_kp: mF6_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MF6_KP";
+            bindings = <&kp>, <&mF6>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
+        mF7_kp: mF7_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MF7_KP";
+            bindings = <&kp>, <&mF7>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
         mF8_kp: mF8_kp {
             compatible = "zmk,behavior-hold-tap";
             label = "MF8_KP";
@@ -389,10 +504,40 @@
             flavor = "balanced";
         };
 
+        mF9_kp: mF9_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MF9_KP";
+            bindings = <&kp>, <&mF9>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
         mF10_kp: mF10_kp {
             compatible = "zmk,behavior-hold-tap";
             label = "MF10_KP";
             bindings = <&kp>, <&mF10>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
+        mF11_kp: mF11_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MF11_KP";
+            bindings = <&kp>, <&mF11>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
+
+        mF12_kp: mF12_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MF12_KP";
+            bindings = <&kp>, <&mF12>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
