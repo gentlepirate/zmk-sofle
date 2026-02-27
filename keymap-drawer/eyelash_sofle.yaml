@@ -60,8 +60,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: L-1}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:keyboard-space$$', h: L-1}
+  - {t: '$$mdi:arrow-left-bold$$', h: HOME}
   - {t: '$$mdi:arrow-down-bold$$', h: PG DN}
   - {t: '$$mdi:arrow-up-bold$$', h: PG UP}
   - {t: '$$mdi:arrow-right-bold$$', h: END}
@@ -125,8 +125,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
