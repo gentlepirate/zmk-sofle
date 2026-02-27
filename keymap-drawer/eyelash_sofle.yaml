@@ -3,8 +3,8 @@ layers:
   LAYER0:
   - {t: '$$mdi:backspace$$', h: F1}
   - {t: '$$mdi:backspace-reverse-outline$$', h: F2}
-  - {t: '$$mdi:keyboard-return$$', h: F3}
-  - {t: '$$mdi:keyboard-space$$', h: F4}
+  - {t: '$$mdi:keyboard-space$$', h: F3}
+  - {t: '$$mdi:keyboard-return$$', h: F4}
   - {t: F5, s: '5'}
   - {t: F6, s: '6'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
