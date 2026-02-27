@@ -1,17 +1,17 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - {t: F1, h: '&mkp MB1', s: '1'}
-  - {t: '$$mdi:keyboard-return$$', h: F2}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: F3}
-  - {t: '$$mdi:backspace$$', h: F4}
+  - {t: '$$mdi:backspace$$', h: F1}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: F2}
+  - {t: '$$mdi:keyboard-return$$', h: F3}
+  - {t: '$$mdi:keyboard-space$$', h: F4}
   - {t: F5, s: '5'}
   - {t: F6, s: '6'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '[', h: F7, s: '{'}
-  - {t: F8, h: ']', s: '8'}
-  - {t: '$$mdi:keyboard-space$$', h: F9}
-  - {t: F10, h: '$$mdi:keyboard-return$$', s: '0'}
+  - {t: '$$mdi:keyboard-return$$', h: F7}
+  - {t: F8, h: '$$mdi:keyboard-space$$', s: '8'}
+  - {t: '[', h: F9, s: '{'}
+  - {t: F10, h: ']', s: '0'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: F11}
   - {t: '$$mdi:backspace$$', h: F12}
   - {t: '$$mdi:keyboard-tab$$', h: L-1}
