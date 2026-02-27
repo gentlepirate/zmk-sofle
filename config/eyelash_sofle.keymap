@@ -1,17 +1,6 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
 
-// 宏：简化 mFx mod-morph 行为定义
-#define MF_BEHAVIOR(num) \
-    mF##num: mF##num { \
-        compatible = "zmk,behavior-mod-morph"; \
-        label = "MF" #num; \
-        bindings = <&kp F##num>, <&kp N##num>; \
-        #binding-cells = <0>; \
-        mods = <(MOD_LGUI|MOD_RGUI)>; \
-        keep-mods = <(MOD_RGUI|MOD_LGUI)>; \
-    };
-
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
@@ -51,15 +40,95 @@
             tap-ms = <100>;
         };
 
-        MF_BEHAVIOR(1)
-        MF_BEHAVIOR(2)
-        MF_BEHAVIOR(3)
-        MF_BEHAVIOR(4)
-        MF_BEHAVIOR(5)
-        MF_BEHAVIOR(6)
-        MF_BEHAVIOR(7)
-        MF_BEHAVIOR(8)
-        MF_BEHAVIOR(9)
+        mF1: mF1 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF1";
+            bindings = <&kp F1>, <&kp N1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        mF2: mF2 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF2";
+            bindings = <&kp F2>, <&kp N2>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        mF3: mF3 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF3";
+            bindings = <&kp F3>, <&kp N3>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        mF4: mF4 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF4";
+            bindings = <&kp F4>, <&kp N4>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        mF5: mF5 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF5";
+            bindings = <&kp F5>, <&kp N5>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        mF6: mF6 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF6";
+            bindings = <&kp F6>, <&kp N6>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        mF7: mF7 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF7";
+            bindings = <&kp F7>, <&kp N7>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        mF8: mF8 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF8";
+            bindings = <&kp F8>, <&kp N8>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        mF9: mF9 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MF9";
+            bindings = <&kp F9>, <&kp N9>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
 
         mF10: mF10 {
             compatible = "zmk,behavior-mod-morph";
