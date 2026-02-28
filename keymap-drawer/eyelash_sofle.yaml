@@ -11,7 +11,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: F7}
   - {t: F8, h: ']', s: '8'}
   - {t: '$$mdi:keyboard-space$$', h: F9}
-  - {t: F10, h: '$$mdi:keyboard-return$$', s: '0'}
+  - {t: '$$mdi:keyboard-return$$', h: F10}
   - {t: '[', h: F11, s: '{'}
   - {t: '$$mdi:backspace$$', h: F12}
   - {t: '$$mdi:keyboard-tab$$', h: L-1}
