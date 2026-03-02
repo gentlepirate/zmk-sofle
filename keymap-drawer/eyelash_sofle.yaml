@@ -26,7 +26,7 @@ layers:
   - {t: I, h: '8'}
   - {t: O, h: '9'}
   - {t: P, h: '0'}
-  - {t: '''', h: L-2, s: '"'}
+  - {t: \, h: L-2, s: '|'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: L-2}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
