@@ -550,7 +550,7 @@
             #binding-cells = <0>;
             bindings = <&mF6>, <&kp ENTER>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
         };
     };
 
