@@ -8,7 +8,7 @@ layers:
   - {t: F5, s: '5'}
   - '&mF6_enter'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', h: F7}
+  - '&toBasic_mF7'
   - {t: F8, h: ']', s: '8'}
   - {t: '$$mdi:keyboard-space$$', h: F9}
   - {t: '$$mdi:keyboard-return$$', h: F10}
