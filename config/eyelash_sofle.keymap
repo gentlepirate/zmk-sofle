@@ -552,6 +552,14 @@
 
             tapping-term-ms = <400>;
         };
+
+        toBasic_mF7: toBasic_mF7 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TOBASIC_MF7";
+            #binding-cells = <0>;
+            tapping-term-ms = <400>;
+            bindings = <&to 6>, <&mF7>;
+        };
     };
 
     combos {
@@ -613,7 +621,7 @@
 
         layer0 {
             bindings = <
-&kp_mF1 0 BACKSPACE  &kp_mF2 0 DEL  &kp_mF3 0 ENTER   &kp_mF4 0 SPACE   &mF5              &mF6_enter       &none  &kp_mF7 0 ENTER   &mF8_kp RBKT 0      &kp_mF9 0 SPACE      &kp_mF10 0 ENTER   &kp_mF11 0 LBKT     &kp_mF12 0 BACKSPACE
+&kp_mF1 0 BACKSPACE  &kp_mF2 0 DEL  &kp_mF3 0 ENTER   &kp_mF4 0 SPACE   &mF5              &mF6_enter       &none  &toBasic_mF7      &mF8_kp RBKT 0      &kp_mF9 0 SPACE      &kp_mF10 0 ENTER   &kp_mF11 0 LBKT     &kp_mF12 0 BACKSPACE
 &to_kp_slow 1 TAB    &mt_main N1 Q  &mt_main N2 W     &mt_slow N3 E     &mt_main N4 R     &mt_main N5 T    &none  &mt_main N6 Y     &mt_main N7 U       &mt_slow N8 I        &mt_slow N9 O      &mt_main N0 P       &to_kp_slow 2 BSLH
 &mt_slow LCTRL ESC   &lt_main 2 A   &mt_main LSHFT S  &lt_main 1 D      &mt_main LCTRL F  &lt_main 2 G     &none  &lt_main 2 H      &mt_main LCTRL J    &lt_main 1 K         &mt_main RSHFT L   &lt_main 2 SEMI     &mt_fast EQUAL MINUS
 &mt_main LSHFT CAPS  &lt_main 2 Z   &mt_main LC(X) X  &mt_main LC(C) C  &mt_main LC(V) V  &kp B            &none  &mt_fast ENTER N  &mt_main GRAVE M    &kp COMMA            &kp DOT            &kp FSLH            &mt_main DEL SQT
@@ -693,7 +701,7 @@
             bindings = <
 &kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
-&lt 0 CAPS   &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&lt 0 CAPS  &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
