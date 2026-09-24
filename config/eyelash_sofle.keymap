@@ -622,7 +622,7 @@
 
         layer0 {
             bindings = <
-&kp_mF1 0 BACKSPACE  &kp_mF2 0 DEL  &kp_mF3 0 ENTER   &kp_mF4 0 SPACE   &mF5              &mF6_enter       &none  &to_mF7 0 6       &mF8_kp RBKT 0      &kp_mF9 0 SPACE      &kp_mF10 0 ENTER   &kp_mF11 0 LBKT     &kp_mF12 0 BACKSPACE
+&kp_mF1 0 BACKSPACE  &kp_mF2 0 DEL  &kp_mF3 0 ENTER   &kp_mF4 0 SPACE   &mF5              &mF6_enter       &none  &to_mF7 0 3       &mF8_kp RBKT 0      &kp_mF9 0 SPACE      &kp_mF10 0 ENTER   &kp_mF11 0 LBKT     &kp_mF12 0 BACKSPACE
 &to_kp_slow 1 TAB    &mt_main N1 Q  &mt_main N2 W     &mt_slow N3 E     &mt_main N4 R     &mt_main N5 T    &none  &mt_main N6 Y     &mt_main N7 U       &mt_slow N8 I        &mt_slow N9 O      &mt_main N0 P       &to_kp_slow 2 BSLH
 &mt_slow LCTRL ESC   &lt_main 2 A   &mt_main LSHFT S  &lt_main 1 D      &mt_main LCTRL F  &lt_main 2 G     &none  &lt_main 2 H      &mt_main LCTRL J    &lt_main 1 K         &mt_main RSHFT L   &lt_main 2 SEMI     &mt_fast EQUAL MINUS
 &mt_main LSHFT CAPS  &lt_main 2 Z   &mt_main LC(X) X  &mt_main LC(C) C  &mt_main LC(V) V  &kp B            &none  &mt_fast ENTER N  &mt_main GRAVE M    &kp COMMA            &kp DOT            &kp FSLH            &mt_main DEL SQT
@@ -647,7 +647,7 @@
 
         L2 {
             bindings = <
-&to 0     &mkp MB1   &mkp_mkp_quick MB3 MB2  &mkp MB5                 &mkp MB3               &bootloader               &trans  &bt BT_SEL 0        &bt BT_SEL 1            &bt BT_SEL 2             &bt BT_CLR_ALL         &bt BT_CLR             &trans
+&to 0     &mkp MB1   &mkp_mkp_quick MB3 MB2  &mkp MB5                 &mkp MB3               &bootloader               &trans  &bt BT_SEL 0        &bt BT_SEL 1            &bt BT_SEL 2             &bt BT_CLR_ALL         &bt BT_CLR              &trans
 &mkp MB4  &kp EXCL   &kp AT                  &kp HASH                 &kp DLLR               &kp PRCNT                 &trans  &kp CARET           &kp AMPS                &kp STAR                 &kp LPAR               &kp RPAR                &trans
 &to 0     &kp TILDE  &mt_main HOME LEFT      &mt_main PG_DN DOWN      &mt_main PG_UP UP      &mt_main END RIGHT        &trans  &mt_main LEFT HOME  &mt_main DOWN PG_DN     &mt_main UP PG_UP        &mt_main RIGHT END     &trans                  &trans
 &trans    &trans     &mt_main HOME LC(LEFT)  &mt_main PG_DN LC(DOWN)  &mt_main PG_UP LC(UP)  &mt_main END LC(RIGHT)    &trans  &trans              &trans                  &trans                   &trans                 &trans                  &trans
